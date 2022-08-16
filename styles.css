@@ -49,6 +49,8 @@ main {
 .main-logo__container {
     background-color: #E8E8E8;
     width: 50%;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .main-logo {
@@ -57,7 +59,41 @@ main {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    -webkit-animation: kenburns-top 8s ease-out infinite alternate both;
+    animation: kenburns-top 8s ease-out infinite alternate both;
 }
+
+ @-webkit-keyframes kenburns-top {
+    0% {
+      -webkit-transform: scale(1) translateY(0);
+              transform: scale(1) translateY(0);
+      -webkit-transform-origin: 50% 16%;
+              transform-origin: 50% 16%;
+    }
+    100% {
+      -webkit-transform: scale(1.10) translateY(-10px);
+              transform: scale(1.10) translateY(-10px);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+    }
+  }
+  @keyframes kenburns-top {
+    0% {
+      -webkit-transform: scale(1) translateY(10px);
+              transform: scale(1) translateY(10px);
+      -webkit-transform-origin: 50% 16%;
+              transform-origin: 50% 16%;
+    }
+    100% {
+      -webkit-transform: scale(1.10) translateY(-10px);
+              transform: scale(1.10) translateY(-10px);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+    }
+  }
+  
+
+
 
 .login {
     text-align: center;
@@ -263,6 +299,7 @@ main {
 }
 
 .artist-img-container {
+    width: 200px;
     height: 290px;
     overflow: hidden;
 }
@@ -378,7 +415,7 @@ main {
 }
 
 .equipo-descripciones {
-    margin: 10px 30px;
+    margin: 10px 50px;
     font-size: 18px;
 }
 
@@ -514,16 +551,20 @@ li {
 
 /*TRANSFORMACIONES, TRANSICIONES, ANIMACIONES*/
 
-.scale {
+.product__card {
     transition: all 1s;
 }
-.scale:hover {
+.product__card:hover {
     transform: scale(1.1);
     
 }
 
 .landscape-navbar a {
     transition: opacity 1s;
+}
+.landscape-navbar li {
+    -webkit-animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 .fade
 {
@@ -550,7 +591,7 @@ li {
     .equipo-grid-container {
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
-        grid-template-rows: 70px 80px 250px 80px 280px 80px 300px 300px 300px;  
+        grid-template-rows: 80px 80px 275px 80px 275px 80px 275px 275px 275px;
         grid-template-areas: 
         "title title title title"
         "subdireccion subdireccion subdireccion subdireccion"
@@ -578,7 +619,6 @@ li {
         grid-area: fotodir;
     }
     .descdir {
-        margin: 10px 50px;
         grid-area: descdir;
     }
     .equipo-subtitle-ventas {
@@ -682,10 +722,7 @@ li {
 
 
 @media screen and (min-width: 768px) {
-    .equipo-grid-container {
-        grid-template-rows: 75px 70px 250px 70px 250px 70px 260px 260px 260px;
-    }
-        .contacto-iframe {
+    .contacto-iframe {
         width: 440px; 
         height:350px;
     }
@@ -778,8 +815,6 @@ li {
 
     .main-nosotros {
         width: 775px;
-        display: flex;
-        justify-content: center;
     }
     .middle-container {
         display: flex;
@@ -830,9 +865,6 @@ li {
 
 @media screen and (min-width: 1200px) {
 
-    .nosotros-info-artista {
-        width: 100%s;
-    }
     .contacto-iframe {
         width: 450px; 
         height:280px;
@@ -903,10 +935,9 @@ li {
     .main-nosotros-grid-container{
         display: grid;
         grid-template-columns: 4% repeat(3, 1fr) 4%;
-        grid-template-rows: 80px 410px 70px 380px 70px 600px;
+        grid-template-rows: 80px 385px 70px 350px 70px 600px;
         column-gap: 10px;
         justify-items: center;
-
     }
     .nosotros-grid-child {
         display: flex;
@@ -1062,3 +1093,119 @@ li {
         background-color: #273469;
     }
 }
+
+/*ANIMACIONES*/
+
+
+.fa-bus-simple:hover, .fa-calendar:hover {
+    -webkit-animation: wobble-hor-bottom 0.8s both;
+    animation: wobble-hor-bottom 0.8s both;
+}
+
+ @-webkit-keyframes wobble-hor-bottom {
+    0%,
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateX(-30px) rotate(-6deg);
+              transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+      -webkit-transform: translateX(15px) rotate(6deg);
+              transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+      -webkit-transform: translateX(-15px) rotate(-3.6deg);
+              transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+      -webkit-transform: translateX(9px) rotate(2.4deg);
+              transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+      -webkit-transform: translateX(-6px) rotate(-1.2deg);
+              transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+  @keyframes wobble-hor-bottom {
+    0%,
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateX(-30px) rotate(-6deg);
+              transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+      -webkit-transform: translateX(15px) rotate(6deg);
+              transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+      -webkit-transform: translateX(-15px) rotate(-3.6deg);
+              transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+      -webkit-transform: translateX(9px) rotate(2.4deg);
+              transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+      -webkit-transform: translateX(-6px) rotate(-1.2deg);
+              transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+  
+/*landscape-navbar li*/
+
+ @-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(10px);
+              filter: blur(10px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(10px);
+              filter: blur(10px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+  /*navbar segunda*/
+  a {
+    color: #fff;
+    position: relative;
+  }
+  a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: -5px;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }

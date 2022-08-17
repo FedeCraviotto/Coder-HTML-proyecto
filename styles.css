@@ -44,20 +44,75 @@ ul {
     height: 550px;
 } */
 
-h4, h2, p {
+h4, h1, h2, h3 {
     text-align: center;
+    margin: 30px 0px;
+}
+
+p {
+    text-align: center;
+}
+
+div h3 {
+    color: #273469;
+    font-size: 14px;
 }
 
 #footer-copyright {
     text-align: left;
 }
 
+.youtubeIframeCont {
+    height: 340px;
+}
+.youtubeIframe {
+    height: 250px;
+}
 
-@media screen and (min-width:576px) {}
+.equipo-img {
+    max-width: 250px;
+    min-width: 200px;
+}
 
-@media screen and (min-width:769px) {}
+.equipo-img-container {
+    max-height: 230px;
+    min-height: 200px;
+    overflow: hidden;
+}
 
-@media screen and (min-width:990px) {
+.equipo-card p{
+    text-align: justify;
+}
+
+@media screen and (min-width:576px) {
+    .youtubeIframeCont {
+        height: 400px;
+    }
+    .youtubeIframe {
+        height: 350px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .youtubeIframeCont {
+        height: 500px;
+    }
+    .youtubeIframe {
+        height: 400px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .equipo-card {
+        flex-direction: row!important;
+    }
+
+    .youtubeIframeCont {
+        height: 700px;
+    }
+    .youtubeIframe {
+        height: 550px;
+    }
     .header {
         justify-content: center!important;
     }
@@ -67,6 +122,12 @@ h4, h2, p {
 }
 
 @media screen and (min-width:1200px) {
+    .youtubeIframeCont {
+        height: 400px;
+    }
+    .youtubeIframe {
+        height: 350px;
+    }
     .carousel-item {
     position: absolute;
     top:-280px;

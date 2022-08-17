@@ -3,7 +3,97 @@
     margin: 0px;
     box-sizing: border-box;
 }
+.nav{
+    list-style:none ;
+}
 
+.fa-solid {
+    font-size: 100px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.boton-color-horrible {
+    background-color: rgb(113, 133, 172);
+    border: none;
+    font-size: 16px;
+    padding: 10px 50px;
+}
+.logo {
+    width: 100px;
+    text-align: left;
+}
+
+.card {
+    border: none;
+}
 .bgC-E8 {
     background-color: #E8E8E8;
+}
+
+.tarjetas {
+    width: 100%;
+}
+
+/* .carousel-inner {
+    height: 550px;
+} */
+
+h4, h2, p {
+    text-align: center;
+}
+
+#footer-copyright {
+    text-align: left;
+}
+
+
+@media screen and (min-width:576px) {}
+
+@media screen and (min-width:769px) {}
+
+@media screen and (min-width:990px) {
+    .header {
+        justify-content: center!important;
+    }
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .carousel-item {
+    position: absolute;
+    top:-280px;
+    }
+    #lower1 {
+        top:-180px;
+    }
+    #lower2 {
+        top:-220px;
+    }
+    .carousel-inner {
+        height: 550px;
+    }
+}
+
+@media screen and (min-width:2100px) {
+    .carousel-item {
+        position: relative;
+        top:auto;
+    }
+    #lower1 {
+        top:auto;
+    }
+    #lower2 {
+        top:auto;
+    }
+    .carousel-inner {
+        height: auto;
+    }
 }

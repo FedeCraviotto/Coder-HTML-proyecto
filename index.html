@@ -7,16 +7,237 @@
     <title>
       MusicMechanics - Venta de Instruemntos musicales - Luthier de Vientos
     </title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="all.min.css" />
-    <script
-      src="https://kit.fontawesome.com/0e67ccfcb0.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/0e67ccfcb0.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header>
+
+    <nav class="navbar ">
+      <div class="container-fluid bgC-E8">
+        <a class="navbar-brand w-25"><img class="w-50" src="img/03.png" alt=""></a>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="¿Que estás buscando?" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </nav>
+      
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/carr-01.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/carr-02.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/carr-03.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+
+    <main class="container-sm">
+
+      <div class="row">
+        <h2>CATEGORIAS</h2>
+      </div>
+
+      <div class="row categorias-container">
+        <div class="col-xl-3 col-md-6 col-12">
+          <div class="card">
+            <img src="img-ignore/bateria-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Cat</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 col-12">
+          <div class="card">
+            <img src="img-ignore/guitarra-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Cat</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 col-12">
+          <div class="card">
+            <img src="img-ignore/micShure-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Cat</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 col-12">
+          <div class="card">
+            <img src="img-ignore/saxoPlateado-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Cat</p>
+            </div>
+          </div>
+        </div>        
+      </div>
+      
+      <div class="row">
+        <button type="button" class="btn btn-info">VER MAS</button>
+      </div>
+
+      <div class="row">
+        <h2>NOVEDADES</h2>
+      </div>
+
+      <div class="row novedades-container">
+
+          <div class="col-xl-3 col-md-6 col-12">
+            <div class="card">
+              <img src="img-ignore/bateria-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Cat</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-xl-3 col-md-6 col-12">
+            <div class="card">
+              <img src="img-ignore/guitarra-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Cat</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-xl-3 col-md-6 col-12">
+            <div class="card">
+              <img src="img-ignore/micShure-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Cat</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-xl-3 col-md-6 col-12">
+            <div class="card">
+              <img src="img-ignore/saxoPlateado-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Cat</p>
+              </div>
+            </div>
+          </div>        
+        
+      </div>
+
+      <div class="row">
+        <button type="button" class="btn btn-info">VER MAS</button>
+      </div>
+      
+      <div class="row prefooter-container">
+
+        <div class="col-xl-6 col-12">
+          <div class="">
+            <h4 class="">Reservas</h4>
+            <i class="fa-solid fa-calendar"></i>
+            <p>Reservá tu turno para recibir instrumentos a arreglar, tomar nuestros cursos y gestionar tus trámites</p>
+          </div>
+        </div>
+
+        <div class="col-xl-6 col-12">
+          <div class="">
+              <h4 class="">Como llegar</h4>
+              <i class="fa-solid fa-bus-simple"></i>
+              <p class="">
+                Colectivos: 115, 130A, 140A, 140D, 146, 50 A., 24, 124, 26, 99, 109,
+                113
+              </p>
+              <p class="">Tren: MITRE, SAN MARTÍN, SARMIENTO.</p>
+              <p class="">Subte: B, C, D.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="mapouter pre-footer__section">
+          <div class="gmap_canvas">
+            <iframe width="85%" height="344" id="gmap_canvas" src="https://maps.google.com/maps?q=Tacuar%C3%AD%20432,%20Buenos%20Aires&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <style>.mapouter{position:relative;text-align:center;height:344px;width:auto;}</style>
+            <a href="https://www.embedgooglemap.net"></a>
+            <style>.gmap_canvas {overflow:hidden;background:none!important;height:344px;width:85vw;}
+            </style>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="container-sm">
+      <div class="row">
+        
+        <div class="col-xl col-12">
+          <h4>Horarios de atencion</h4>
+          <ul>
+            <li>Lunes a Viernes</li>
+            <li>8 a 17hs</li>
+            <li>Sabados y Domingos</li>
+            <li>10 a 13hs</li>
+          </ul>
+        </div>
+
+        <div class="col-xl col-12">
+          <h4>Teléfonos</h4>
+          <ul>
+            <li>Administración 6585-6958 int.01</li>
+            <li>Ventas 6585-6958 int.02 / 11-36491062</li>
+            <li>Luthier 6585-6958 int.03</li>
+            <li>Posventa 6585-6958 int.05</li>
+          </ul>
+        </div>
+
+        <div class="col-xl col-12">
+          <h4>Dirección</h4>
+          <ul>
+            <li>Tacuarí 432</li>
+            <li>Esquina Avenida Belgrano</li>
+            <li>Plata Baja 02</li>
+            <li>Microcentro, C.A.B.A</li>
+            <li>Argentina</li>
+          </ul>
+        </div>
+
+        <div class="col-xl col-12">
+          <h4>Tarjetas</h4>
+          <ul>
+            <li><img src="img-ignore/pagos__.png" alt=""></li>
+    
+          </ul>
+        </div>
+
+        <div class="col-xl col-12">
+          <h4>Legales</h4>
+          <ul>
+            <li>Datos Personales</li>
+            <li>Condiciones de Uso</li>
+            <li>Defensa del Consumidor</li>
+          </ul>
+        </div>
+        
+        
+        
+        <div class="row">
+          <div class="col">
+            <p id="footer-copyright">MusicMechanics - 2022 - Todos los derechos reservados</p>
+          </div>
+        </div>
+        
+      </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+    
+    <!-- <header>
       <div class="top-navbar">
         <div class="burguer-menu">
           <i class="fa-solid fa-bars"></i>
@@ -67,9 +288,7 @@
 
     <body>
         <main>
-          <div class="main-banner__container">
-            <img class="header__main-banner" src="img/fondo-bateria.jpg" alt="" />
-          </div>
+
             <div class="grid-container">
 
                 <div class="grid-child subCategorias">
@@ -91,7 +310,7 @@
                   <article class="product__card ">
                     <img
                       class="product__img"
-                      src="img-ignore/guitarra-categoria.jpg"
+
                       alt=""
                     />
                     <h4 class="product__name">Guitarras y Bajos</h4>
@@ -102,7 +321,7 @@
                   <article class="product__card ">
                     <img
                       class="product__img"
-                      src="img-ignore/micShure-categoria.jpg"
+                      
                       alt=""
                     />
                     <h4 class="product__name">Micrófonos y pedaleras</h4>
@@ -113,7 +332,7 @@
                   <article class="product__card ">
                     <img
                       class="product__img"
-                      src="img-ignore/saxoPlateado-categoria.jpg"
+                      
                       alt=""
                     />
                     <h4 class="product__name">Metales y Maderas</h4>
@@ -251,8 +470,7 @@
               <li>Defensa del Consumidor</li>
             </ul>
           </div>
-        </footer>
-    
+        </footer> 
         <p id="footer-copyright">MusicMechanics - 2022 - Todos los derechos reservados</p>
-      </body>
+      -->
     </html>

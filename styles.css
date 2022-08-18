@@ -3,12 +3,17 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
 .nav{
     list-style:none ;
 }
 
 .fa-solid {
-    font-size: 100px;
+    font-size: 40px;
+}
+
+.prefooter-container p {
+    width: 260px;
 }
 
 ul {
@@ -19,14 +24,19 @@ ul {
 }
 
 .boton-color-horrible {
-    background-color: rgb(113, 133, 172);
+    background-color: rgb(166, 185, 218);
     border: none;
     font-size: 16px;
     padding: 10px 50px;
+    font-weight: 700;
+}
+
+.logo-container {
+    width: 190px;
+    height: 100px;
 }
 .logo {
-    width: 100px;
-    text-align: left;
+    width: 100%;
 }
 
 .card {
@@ -80,10 +90,52 @@ div h3 {
     overflow: hidden;
 }
 
-.equipo-card p{
+.p-justify{
     text-align: justify;
 }
 
+
+.nosotros-section p{
+    text-align: justify;
+}
+
+.artist-img-container {
+    width: 250px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.productos-barraminimo,
+.productos-barramaximo {
+    background-color: #30343F;
+    height: 6px;
+    width: 150px;
+}
+
+.productos-rangoPrecios-maximo,
+.productos-rangoPrecios-minimo {
+    margin: 15px 0px;
+}
+
+.ckb-left,
+.ckb-right {
+    line-height: 1.5;
+    margin: 15px 0px;
+}
+
+.card {
+    box-shadow: 0px 0px 15px -8px black;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 15px 0px black;
+}
+
+.card:hover,
+.btn:hover {
+    cursor: pointer;
+}
 @media screen and (min-width:576px) {
     .youtubeIframeCont {
         height: 400px;
@@ -100,24 +152,22 @@ div h3 {
     .youtubeIframe {
         height: 400px;
     }
+    .productos-barraminimo,
+.productos-barramaximo {
+    width: 250px;
+}
 }
 
 @media screen and (min-width:992px) {
-    .equipo-card {
-        flex-direction: row!important;
+    .radios01 div,
+    .radios02 div {
+        font-size: 18px;
     }
-
     .youtubeIframeCont {
         height: 700px;
     }
     .youtubeIframe {
         height: 550px;
-    }
-    .header {
-        justify-content: center!important;
-    }
-    .navbar-collapse {
-        flex-grow: 0;
     }
 }
 

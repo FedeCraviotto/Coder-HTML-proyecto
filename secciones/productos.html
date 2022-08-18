@@ -13,16 +13,16 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg bg-light bgC-E8">
-      <div class="container-fluid bgC-E8 d-flex justify-content-between header">
-        <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-expand-lg bgC-E8">
+      <div class="container-sm bgC-E8 d-flex justify-content-between header">
+        <div class="logo-container">
           <img class="logo" src="../img/03.png" alt="">
-        </a>
+        </div>
         <button class="navbar-toggler navcentro" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav fs-5">
+        <div class="collapse navbar-collapse flex-lg-grow-1" id="navbarNav">
+          <ul class="navbar-nav fs-5 justify-content-lg-evenly flex-lg-grow-1">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
             </li>
@@ -56,262 +56,347 @@
         </div>
       </div>
     </div>
-  
-  <main class="container-sm">
-      <div class="productos-main-grid-container">
+
+    <main class="container-sm p-4">
+      <div class="row">
+
+        <div class="col-12 col-sm-6 radios01 col-xl 3">
+          
+          <div class="form-check">
+            <input type="checkbox" value="" id="checkGuitarras" checked>
+            <label class="form-check-label" for="checkGuitarras">
+              Guitarras
+            </label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" value="" id="checkBajos">
+            <label class="form-check-label" for="checkBajos">
+              Bajos
+            </label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" value="" id="checkViolines">
+            <label class="form-check-label" for="checkViolines">
+              Violines
+            </label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" value="" id="checkSaxofones">
+            <label class="form-check-label" for="checkSaxofones">
+              Saxofones
+            </label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" value="" id="checkAmplificadores">
+            <label class="form-check-label" for="checkAmplificadores">
+              Amplificadores
+            </label>
+          </div>
+          
+        </div>
+      
+        <div class="col-12 col-sm-6 radios02 col-xl 3">
+          
+          <div class="form-check">
+            <input type="checkbox" value="" id="checkMicrofonos">
+            <label class="form-check-label" for="checkMicrofonos">
+              Microfonos
+            </label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" value="" id="checkTrompetas">
+            <label class="form-check-label" for="checkTrompetas">
+              Trompetas
+            </label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" value="" id="checkTrombones">
+            <label class="form-check-label" for="checkTrombones">
+              Trombones
+            </label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" value="" id="checkBaterias">
+            <label class="form-check-label" for="checkBaterias">
+              Baterías
+            </label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" value="" id="checkOtros">
+            <label class="form-check-label" for="checkOtros">
+              Otros
+            </label>
+          </div>
+
+        </div>
         
+        <div class="col-12 col-sm-6 col-xl 3 d-flex align-items-center">
 
-            <div class="productos-checkbox-left">
-                <label class="container">
-                  <input type="checkbox">
-                <span class="categoria">Guitarras</span>
-              </label>
-              
-              <label class="container">
-                <input type="checkbox">
-                <span class="categoria">Bajos</span>
-              </label>
-              
-              <label class="container">
-                <input type="checkbox">
-                <span class="categoria">Violines</span>
-              </label>
-              
-              <label class="container">
-                <input type="checkbox">
-                <span class="categoria">Saxofones</span>
-              </label>
-              <label class="container">
-                <input type="checkbox">
-                <span class="categoria">Amplificadores</span>
-              </label>
-            </div>
-
-            
-            <div class="productos-checkbox-right">
-              <label class="container">
-                <input type="checkbox">
-                <span class="categoria">Micrófonos</span>
-              </label>
-              
-              <label class="container">
-                <input type="checkbox">
-                <span class="categoria">Trompetas</span>
-              </label>
-              
-              <label class="container">
-                <input type="checkbox">
-                <span class="categoria">Trombones</span>
-              </label>
-              
-              <label class="container">
-                <input type="checkbox" checked>
-                <span class="categoria">Baterías</span>
-              </label>
-              <label class="container">
-                <input type="checkbox">
-                <span class="categoria">Otros</span>
-              </label>
-            </div>
-
-        <div class="productos-rango-container">
-
-            <div class="productos-rangoPrecios-minimo">
-              <span>Mínimo</span>
-              <div class="productos-barraminimo"></div>
-              <span>$4000</span>
-            </div>
-            <div class="productos-rangoPrecios-maximo">
-              <span>Maximo</span>
-              <div class="productos-barramaximo"></div>
-              <span>$1.000.000</span>
-            </div>
-
+            <select class="form-select form-select-sm text-start" aria-label=".form-select-sm example">
+              <option selected>Ordenar</option>
+              <option value="1">A-Z</option>
+              <option value="2">Z-A</option>
+              <option value="3">Más vendido</option>
+              <option value="3">Modelos más recientes</option>
+            </select>
+          
         </div>
 
-        <div class="productos-ordenarPor">
-              <span>Ordenar por: </span> <br>
-              <select name="ordenar-por" id="">
-                  <option value="">Marca</option>
-                  <option value="">Precio</option>
-                  <option value="">A-Z</option>
-                  <option value="">Z-A</option>
-              </select>
+        <div class="col-12 col-sm-6 col-xl 3">
+          <div>
+            <div>
+              <label for="rangoMinimo" class="form-label">Mínimo</label>
+              <input type="range" class="form-range" min="0" max="5000" id="rangoMinimo">
+            </div>
+            <div>
+              <label for="rangoMaximo" class="form-label">Máximo</label>
+              <input type="range" class="form-range" min="5000" max="3000000" id="rangoMaximo">
+            </div>
+          </div>
+        </div>
+        
+      </div>
+        
+      <div class="row productos-container border-top border-dark border-opacity-25 mt-5 pt-5">
+        <div class="col-sm-3 col-lg-2 col-12">
+          <div class="card my-3">
+            <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Baterias</p>
+            </div>
+          </div>
         </div>
 
+        <div class="col-sm-3 col-lg-2 col-12">
+          <div class="card my-3">
+            <img src="../img/guitarra-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Guitarras</p>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-sm-3 col-lg-2 col-12">
+          <div class="card my-3">
+            <img src="../img/microfono-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Micrófonos</p>
+            </div>
+          </div>
+        </div>
 
-              <article class="product__card productos-card productos-grid-child01">
-                <img
-                  class="product__img"
-                  src="../img-ignore/bateria-categoria.jpg"
-                  alt=""
-                />
-                <h4 class="product__name">Batería Whyatt 6 Cuerpos</h4>
-                <button class="productos-btn-carrito">Agregar al Carrito</button>
-              </article>
+        <div class="col-sm-3 col-lg-2 col-12">
+          <div class="card my-3">
+            <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Saxofones</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
+          <div class="card my-3">
+            <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Baterias</p>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
+          <div class="card my-3">
+            <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Saxofones</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-              
-              <article class="product__card productos-card productos-grid-child02">
-                <img
-                  class="product__img"
-                  src="../img-ignore/bateria-categoria.jpg"
-                  alt=""
-                />
-                <h4 class="product__name">Batería Whyatt 4 Cuerpos</h4>
-                <button class="productos-btn-carrito">Agregar al Carrito</button>
-              </article>
+      <div class="row productos-container">
+        <div class="col-sm-3 col-lg-2 col-12">
+          <div class="card my-3">
+            <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Baterias</p>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-sm-3 col-lg-2 col-12">
+          <div class="card my-3">
+            <img src="../img/guitarra-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Guitarras</p>
+            </div>
+          </div>
+        </div>
 
-              
-              <article class="product__card productos-card productos-grid-child03">
-                <img
-                  class="product__img"
-                  src="../img-ignore/bateria-categoria.jpg"
-                  alt=""
-                />
-                <h4 class="product__name">Batería Stone 6 Cuerpos </h4>
-                <button class="productos-btn-carrito">Agregar al Carrito</button>
-              </article>
+        <div class="col-sm-3 col-lg-2 col-12">
+          <div class="card my-3">
+            <img src="../img/microfono-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Micrófonos</p>
+            </div>
+          </div>
+        </div>
 
-              <article class="product__card productos-card productos-grid-child04 productos-x2">
-                <img
-                  class="product__img"
-                  src="../img-ignore/bateria-categoria.jpg"
-                  alt=""
-                />
-                <h4 class="product__name">Batería Whyatt 6 Cuerpos</h4>
-                <button class="productos-btn-carrito">Agregar al Carrito</button>
-              </article>
+        <div class="col-sm-3 col-lg-2 col-12">
+          <div class="card my-3">
+            <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Saxofones</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
+          <div class="card my-3">
+            <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Baterias</p>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
+          <div class="card my-3">
+            <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Saxofones</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-              
-              <article class="product__card productos-card productos-grid-child05 productos-x2">
-                <img
-                  class="product__img"
-                  src="../img-ignore/bateria-categoria.jpg"
-                  alt=""
-                />
-                <h4 class="product__name">Batería Whyatt 4 Cuerpos</h4>
-                <button class="productos-btn-carrito">Agregar al Carrito</button>
-              </article>
+      <div class="row productos-container">
+        <div class="col-sm-3 col-lg-2 col-12">
+          <div class="card my-3">
+            <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Baterias</p>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-sm-3 col-lg-2 col-12">
+          <div class="card my-3">
+            <img src="../img/guitarra-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Guitarras</p>
+            </div>
+          </div>
+        </div>
 
-              
-              <article class="product__card productos-card productos-grid-child06 productos-x2">
-                <img
-                  class="product__img"
-                  src="../img-ignore/bateria-categoria.jpg"
-                  alt=""
-                />
-                <h4 class="product__name">Batería Stone 6 Cuerpos </h4>
-                <button class="productos-btn-carrito">Agregar al Carrito</button>
-              </article>
+        <div class="col-sm-3 col-lg-2 col-12">
+          <div class="card my-3">
+            <img src="../img/microfono-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Micrófonos</p>
+            </div>
+          </div>
+        </div>
 
-              <article class="product__card productos-card productos-grid-child07 productos-x4">
-                <img
-                  class="product__img"
-                  src="../img-ignore/bateria-categoria.jpg"
-                  alt=""
-                />
-                <h4 class="product__name">Batería Whyatt 6 Cuerpos</h4>
-                <button class="productos-btn-carrito">Agregar al Carrito</button>
-              </article>
+        <div class="col-sm-3 col-lg-2 col-12">
+          <div class="card my-3">
+            <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Saxofones</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
+          <div class="card my-3">
+            <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Baterias</p>
+            </div>
+          </div>
+        </div>
 
-
-              
-              <article class="product__card productos-card productos-grid-child08 productos-x4">
-                <img
-                  class="product__img"
-                  src="../img-ignore/bateria-categoria.jpg"
-                  alt=""
-                />
-                <h4 class="product__name">Batería Whyatt 4 Cuerpos</h4>
-                <button class="productos-btn-carrito">Agregar al Carrito</button>
-              </article>
-
-
-              
-              <article class="product__card productos-card productos-grid-child09 productos-x4">
-                <img
-                  class="product__img"
-                  src="../img-ignore/bateria-categoria.jpg"
-                  alt=""
-                />
-                <h4 class="product__name">Batería Stone 6 Cuerpos </h4>
-                <button class="productos-btn-carrito">Agregar al Carrito</button>
-              </article>
-
-              <article class="product__card productos-card productos-grid-child10 productos-x4">
-                <img
-                  class="product__img"
-                  src="../img-ignore/bateria-categoria.jpg"
-                  alt=""
-                />
-                <h4 class="product__name">Batería Whyatt 6 Cuerpos</h4>
-                <button class="productos-btn-carrito">Agregar al Carrito</button>
-              </article>
-
-
-              
-              <article class="product__card productos-card productos-grid-child11 productos-x4">
-                <img
-                  class="product__img"
-                  src="../img-ignore/bateria-categoria.jpg"
-                  alt=""
-                />
-                <h4 class="product__name">Batería Whyatt 4 Cuerpos</h4>
-                <button class="productos-btn-carrito">Agregar al Carrito</button>
-              </article>
-
-
-              
-              <article class="product__card productos-card productos-grid-child12 productos-x4">
-                <img
-                  class="product__img"
-                  src="../img-ignore/bateria-categoria.jpg"
-                  alt=""
-                />
-                <h4 class="product__name">Batería Stone 6 Cuerpos</h4>
-                <button class="productos-btn-carrito">Agregar al Carrito</button>
-              </article>
-
+        <div class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
+          <div class="card my-3">
+            <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Saxofones</p>
+            </div>
+          </div>
+        </div>
       </div>
 
 
+      <div class="row productos-container">
+        <div class="col-sm-3 col-lg-2 col-12">
+          <div class="card my-3">
+            <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Baterias</p>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-sm-3 col-lg-2 col-12">
+          <div class="card my-3">
+            <img src="../img/guitarra-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Guitarras</p>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-sm-3 col-lg-2 col-12">
+          <div class="card my-3">
+            <img src="../img/microfono-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Micrófonos</p>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-sm-3 col-lg-2 col-12">
+          <div class="card my-3">
+            <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Saxofones</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
+          <div class="card my-3">
+            <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Baterias</p>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
+          <div class="card my-3">
+            <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Saxofones</p>
+            </div>
+          </div>
+        </div>
 
+      </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-      <div class="row prefooter-container">
+      <div class="row prefooter-container border-top border-dark border-opacity-25 my-5">
 
         <div class="col-xl-6 col-12 my-3">
-          <div class="d-flex flex-column align-items-center gap-3">
+          <div class="d-flex flex-column align-items-center">
             <h4 class="">Reservas</h4>
-            <i class="fa-solid fa-calendar"></i>
+            <i class="fa-solid fa-calendar my-3"></i>
             <p>Reservá tu turno para recibir instrumentos a arreglar, tomar nuestros cursos y gestionar tus trámites</p>
           </div>
         </div>
 
         <div class="col-xl-6 col-12 my-3">
-          <div class="d-flex flex-column align-items-center gap-3">
+          <div class="d-flex flex-column align-items-center">
               <h4 class="">Como llegar</h4>
-              <i class="fa-solid fa-bus-simple"></i>
+              <i class="fa-solid fa-bus-simple my-3"></i>
               <p class="">
                 Colectivos: 115, 130A, 140A, 140D, 146, 50 A., 24, 124, 26, 99, 109,
                 113
@@ -335,8 +420,8 @@
       </div>
 
     </main>
-
-    <footer class="container-sm">
+    
+    <footer class="container-sm border-top border-dark border-opacity-25">
       <div class="row gap-5 my-5">
         
         <div class="col-xl col-12 d-flex flex-column flex-xl-column align-items-center">
@@ -382,13 +467,13 @@
         <div class="col-xl col-12 d-flex flex-column flex-xl-column align-items-center">
           <h4>Tarjetas</h4>
           <ul class="d-flex flex-column align-items-center gap-2">
-            <li><img class="tarjetas" src="../img-ignore/pagos__.png" alt=""></li>
+            <li><img class="tarjetas" src="../img/pagos__.png" alt=""></li>
           </ul>
         </div>
 
       </div>
 
-      <div class="row">
+      <div class="row border-top border-dark border-opacity-25">
         <div class="col">
           <p id="footer-copyright">MusicMechanics - 2022 - Todos los derechos reservados</p>
         </div>

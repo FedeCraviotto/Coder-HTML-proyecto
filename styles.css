@@ -43,7 +43,7 @@ ul {
     border: none;
 }
 .bgC-E8 {
-    background-color: #E8E8E8;
+    background-color: #E9E6E1;
 }
 
 .tarjetas {
@@ -194,6 +194,13 @@ div h3 {
 }
 
 @media screen and (min-width:2100px) {
+    .navbar-nav {
+        font-size: 2.25rem!important;
+    }
+    .logo-container {
+        width: 30%;
+        height: auto;
+    }
     .carousel-item {
         position: relative;
         top:auto;

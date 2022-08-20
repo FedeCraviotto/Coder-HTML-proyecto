@@ -46,6 +46,8 @@ ul {
 
 .card {
     border: none;
+    border-radius: 25px;
+    overflow: hidden;
 }
 .bgC-E8 {
     background-color: #E9E6E1;
@@ -98,6 +100,8 @@ div h3 {
 
 #footer-copyright {
     text-align: left;
+    font-size: 12px;
+    padding: 20px 0px 10px 0px;
 }
 
 footer {
@@ -196,7 +200,7 @@ footer {
 
 
 .boton-color-horrible:hover,
-.prefooter-container div div {
+.prefooter-container div {
     /* background-color: #273469; */
     /* background-color: #60657c; */
     color: #273469;

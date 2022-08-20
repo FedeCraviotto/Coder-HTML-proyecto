@@ -13,37 +13,41 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg bgC-E8">
-      <div class="container-sm bgC-E8 d-flex justify-content-between header">
-        <div class="logo-container">
-          <img class="logo" src="../img/OVM-logo.png" alt="">
-        </div>
-        <button class="navbar-toggler navcentro" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse flex-lg-grow-1" id="navbarNav">
-          <ul class="navbar-nav fs-5 justify-content-lg-evenly flex-lg-grow-1">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="productos.html">Productos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="nosotros.html">Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="equipo.html">Equipo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </div>
+    <header class="container-fluid navbar navbar-expand-lg bgC-E8 flex-column flex-lg-row justify-content-center header justify-content-lg-between">
+
+      <div class="logo-container">
+        <img class="logo" src="../img/OVM-logo.png" alt="">
       </div>
-    </nav>
+
+      <div class="flex-lg-grow-1">
+      <button class="navbar-toggler navcentro m-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <nav class="collapse navbar-collapse flex-lg-grow-1" id="navbarNav">
+        <ul class="navbar-nav fs-5 justify-content-lg-evenly flex-lg-grow-1">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="equipo.html">Equipo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      </div>
     
-    <main class="container-sm">
+    </header>
+    
+    <main class="container-lg p-4">
       <div class="container-sm p-4">
         <h1 class="">Historia</h1>
         <div class="row">
@@ -144,11 +148,11 @@
 
     </main>
 
-    <footer class="container-sm border-top border-dark border-opacity-25 mt-5">
-      <div class="row gap-5 my-5">
+    <footer class="container-fluid ">
+      <div class="row gap-5">
         
         <div class="col-xl col-12 d-flex flex-column flex-xl-column align-items-center">
-          <h4>Horarios de atencion</h4>
+          <h4>Horarios</h4>
           <ul class="d-flex flex-column align-items-center gap-2">
             <li>Lunes a Viernes</li>
             <li>8 a 17hs</li>
@@ -196,12 +200,7 @@
 
       </div>
 
-      <div class="row border-top border-dark border-opacity-25">
-        <div class="col">
           <p id="footer-copyright">MusicMechanics - 2022 - Todos los derechos reservados</p>
-        </div>
-      </div>
-        
     </footer>
 
     

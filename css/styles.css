@@ -36,9 +36,10 @@ ul {
 }
 
 .logo-container {
-    margin-top: 10px;
-    width: 190px;
-    height: 100px;
+    display: none;
+    margin-top: 5px;
+    width: 160px;
+    height: 85px;
 }
 .logo {
     width: 100%;
@@ -67,10 +68,14 @@ h4, h1, h2, h3 {
 }
 
 a {
+    text-decoration: none;
+}
+
+ul a {
     position: relative;
 }
 
-a::after{
+ul a::after{
     display: block;
     position: absolute;
     content: "";
@@ -83,7 +88,7 @@ a::after{
 }
 
 
-a:hover::after{
+ul a:hover::after{
     width: 100%;
     left: 0;
 }
@@ -373,14 +378,6 @@ footer {
   
 
 @media screen and (min-width:576px) {
-    .logo-container {
-        width: 230px;
-        height: 130px;
-    }
-    .navbar-toggler-icon {
-        width: 3.5rem;
-        height: 3.5rem;
-    }
     .youtubeIframeCont {
         height: 400px;
     }
@@ -413,7 +410,8 @@ footer {
         width: 100%;
     }
     .logo-container {
-        margin-left: 20px;
+        display: block;
+        margin-left: 40px;
     }
     .radios01 div,
     .radios02 div {
@@ -439,10 +437,10 @@ footer {
     top:-280px;
     }
     #lower1 {
-        top:-180px;
+        top:-50px;
     }
     #lower2 {
-        top:-220px;
+        top:-250px;
     }
     .carousel-inner {
         height: 515px;

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-=1.0" />
     <title>
-      OVM - Venta de Instrumentos musicales - Luthier de Vientos
+      OVM - Listado de Productos
     </title>
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/styles.css">
@@ -63,7 +63,15 @@
     </header>
 
     <main class="container-lg p-4 mainBC">
-      <div class="row">
+
+      <div class="barra-busqueda form-control d-flex align-items-center mb-3">
+        <input class="barra-busqueda__input border-0" id="search-input" placeholder="Búsqueda por marca, producto, modelo, tipo">
+        <label for="search-input">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </label>
+      </div>
+
+      <section class="row">
 
         <div class="col-6 radios01 col-xl-3">
           
@@ -160,242 +168,358 @@
           </div>
         </div>
         
-      </div>
+        <div class="row productos-container border-top border-dark border-opacity-25 mt-5 pt-5">
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Baterias</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/guitarra-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Guitarras</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/microfono-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Mics</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Saxofones</p>
+              </div>
+            </div>
+          </article>
+          
+          <article class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
+            <div class="card my-3">
+              <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Baterias</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
+            <div class="card my-3">
+              <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Saxofones</p>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="row productos-container">
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Baterias</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/guitarra-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Guitarras</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/microfono-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Mics</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Saxofones</p>
+              </div>
+            </div>
+          </article>
+          
+          <article class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
+            <div class="card my-3">
+              <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Baterias</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
+            <div class="card my-3">
+              <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Saxofones</p>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="row productos-container">
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Baterias</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/guitarra-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Guitarras</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/microfono-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Mics</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Saxofones</p>
+              </div>
+            </div>
+          </article>
+          
+          <article class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
+            <div class="card my-3">
+              <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Baterias</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
+            <div class="card my-3">
+              <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Saxofones</p>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="row productos-container">
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Baterias</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/guitarra-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Guitarras</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/microfono-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Mics</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Saxofones</p>
+              </div>
+            </div>
+          </article>
+          
+          <article class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
+            <div class="card my-3">
+              <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Baterias</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
+            <div class="card my-3">
+              <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Saxofones</p>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="row productos-container">
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Baterias</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/guitarra-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Guitarras</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/microfono-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Mics</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Saxofones</p>
+              </div>
+            </div>
+          </article>
+          
+          <article class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
+            <div class="card my-3">
+              <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Baterias</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
+            <div class="card my-3">
+              <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Saxofones</p>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="row productos-container">
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Baterias</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/guitarra-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Guitarras</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/microfono-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Mics</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12">
+            <div class="card my-3">
+              <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Saxofones</p>
+              </div>
+            </div>
+          </article>
+          
+          <article class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
+            <div class="card my-3">
+              <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Baterias</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
+            <div class="card my-3">
+              <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Saxofones</p>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
         
-      <div class="row productos-container border-top border-dark border-opacity-25 mt-5 pt-5">
+      </section>
 
-        <div class="col-sm-3 col-lg-2 col-12">
-          <div class="card my-3">
-            <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Baterias</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3 col-lg-2 col-12">
-          <div class="card my-3">
-            <img src="../img/guitarra-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Guitarras</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3 col-lg-2 col-12">
-          <div class="card my-3">
-            <img src="../img/microfono-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Mics</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3 col-lg-2 col-12">
-          <div class="card my-3">
-            <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Saxofones</p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
-          <div class="card my-3">
-            <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Baterias</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
-          <div class="card my-3">
-            <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Saxofones</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="row productos-container">
-
-        <div class="col-sm-3 col-lg-2 col-12">
-          <div class="card my-3">
-            <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Baterias</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3 col-lg-2 col-12">
-          <div class="card my-3">
-            <img src="../img/guitarra-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Guitarras</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3 col-lg-2 col-12">
-          <div class="card my-3">
-            <img src="../img/microfono-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Mics</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3 col-lg-2 col-12">
-          <div class="card my-3">
-            <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Saxofones</p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
-          <div class="card my-3">
-            <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Baterias</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
-          <div class="card my-3">
-            <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Saxofones</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="row productos-container">
-
-        <div class="col-sm-3 col-lg-2 col-12">
-          <div class="card my-3">
-            <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Baterias</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3 col-lg-2 col-12">
-          <div class="card my-3">
-            <img src="../img/guitarra-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Guitarras</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3 col-lg-2 col-12">
-          <div class="card my-3">
-            <img src="../img/microfono-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Mics</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3 col-lg-2 col-12">
-          <div class="card my-3">
-            <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Saxofones</p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
-          <div class="card my-3">
-            <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Baterias</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
-          <div class="card my-3">
-            <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Saxofones</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-
-      <div class="row productos-container">
-
-        <div class="col-sm-3 col-lg-2 col-12">
-          <div class="card my-3">
-            <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Baterias</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3 col-lg-2 col-12">
-          <div class="card my-3">
-            <img src="../img/guitarra-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Guitarras</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3 col-lg-2 col-12">
-          <div class="card my-3">
-            <img src="../img/microfono-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Mics</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3 col-lg-2 col-12">
-          <div class="card my-3">
-            <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Saxofones</p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
-          <div class="card my-3">
-            <img src="../img/bateria-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Baterias</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3 col-lg-2 col-12 d-sm-none d-lg-block">
-          <div class="card my-3">
-            <img src="../img/saxofon-categoria.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Saxofones</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="row prefooter-container border-top border-dark border-opacity-25 my-5">
+      <section class="row prefooter-container border-top border-dark border-opacity-25 my-5">
 
         <div class="col-xl-6 col-12 my-3">
           <div class="d-flex flex-column align-items-center">
@@ -417,7 +541,7 @@
               <p class="">Subte: B, C, D.</p>
           </div>
         </div>
-      </div>
+      </section>
 
 
       <div class="gmap_canvas">

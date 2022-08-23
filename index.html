@@ -7,252 +7,251 @@
     <title>
       MusicMechanics - Venta de Instruemntos musicales - Luthier de Vientos
     </title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="all.min.css" />
-    <script
-      src="https://kit.fontawesome.com/0e67ccfcb0.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/0e67ccfcb0.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header>
-      <div class="top-navbar">
-        <div class="burguer-menu">
-          <i class="fa-solid fa-bars"></i>
-        </div>
-        <div class="main-logo__container">
-            <img class="main-logo" src="img/03.png" alt="" />
-        </div>
-        <div class="middle-container">
-          <div class="searchbar-container">
-            <input type="text" name="" id="">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </div>
-          <div class="encontra-container">
-            <p>Encontrá todo lo que necesitás en un solo lugar</p>
-          </div>
-        </div>
-        <div class="top-navbar__right">
-          <div class="login">
-            <p>Ingresá a tu cuenta</p>
-            <i class="fa-solid fa-user"></i>
-          </div>
-          <div class="search">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </div>
+
+    <nav class="navbar navbar-expand-lg bg-light bgC-E8">
+      <div class="container-fluid bgC-E8 d-flex justify-content-between header">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="img/03.png" alt="">
+        </a>
+        <button class="navbar-toggler navcentro" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav fs-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="secciones/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="secciones/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="secciones/equipo.html">Equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="secciones/contacto.html">Contacto</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <nav>
-        <ul class="landscape-navbar">
-          <li>
-            <a class="fade" href="index.html" id="#">Inicio</a>
-          </li>
-          <li>
-            <a class="fade" href="secciones/nosotros.html">Nosotros</a>
-          </li>
-          <li>
-            <a class="fade" href="secciones/productos.html">Productos</a>
-          </li>
+    </nav>
+      
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/carr-01.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" id="lower1">
+          <img src="img/carr-02.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" id="lower2">
+          <img src="img/carr-03.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
 
-          <li>
-            <a class="fade" href="secciones/equipo.html">Equipo</a>
-          </li>
-          <li>
-            <a class="fade" href="secciones/contacto.html">Contacto</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <main class="container-sm">
 
-    <body>
-        <main>
-          <div class="main-banner__container">
-            <img class="header__main-banner" src="img/fondo-bateria.jpg" alt="" />
+      <div class="row my-3">
+        <h2>CATEGORIAS</h2>
+      </div>
+
+      <div class="row categorias-container">
+        <div class="col-xl-3 col-md-6 col-12">
+          <div class="card my-3">
+            <img src="img-ignore/bateria-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Baterias</p>
+            </div>
           </div>
-            <div class="grid-container">
+        </div>
 
-                <div class="grid-child subCategorias">
-                  <h2 class="subtitle">CATEGORIAS</h2>
-                </div>
-                
-                <div class="grid-child categoria1">
-                  <article class="product__card ">
-                    <img
-                      class="product__img"
-                      src="img-ignore/bateria-categoria.jpg"
-                      alt=""
-                    />
-                    <h4 class="product__name">Baterías</h4>
-                  </article>
-                </div>
-                
-                <div class="grid-child categoria2">
-                  <article class="product__card ">
-                    <img
-                      class="product__img"
-                      src="img-ignore/guitarra-categoria.jpg"
-                      alt=""
-                    />
-                    <h4 class="product__name">Guitarras y Bajos</h4>
-                  </article>
-                </div>
-                
-                <div class="grid-child categoria3">
-                  <article class="product__card ">
-                    <img
-                      class="product__img"
-                      src="img-ignore/micShure-categoria.jpg"
-                      alt=""
-                    />
-                    <h4 class="product__name">Micrófonos y pedaleras</h4>
-                  </article>
-                </div>
-                
-                <div class="grid-child categoria4">
-                  <article class="product__card ">
-                    <img
-                      class="product__img"
-                      src="img-ignore/saxoPlateado-categoria.jpg"
-                      alt=""
-                    />
-                    <h4 class="product__name">Metales y Maderas</h4>
-                  </article>
-                </div>
-                
-                <div class="grid-child subMasCategorias">
-                  <button class="btn-ver-mas">MAS CATEGORIAS</button>
-                </div>
-                <div class="grid-child subNovedades">
-                  <h2 class="subtitle">NOVEDADES</h2>
-                </div>
-                <div class="grid-child novedad1">
-                  <article class="product__card ">
-                    <img
-                      class="product__img"
-                      src="img-ignore/clari02.jpg"
-                      alt=""/>
-                    <h4 class="product__name">Clarinete Licoln</h4>
-                  </article>
-                </div>
-                <div class="grid-child novedad2">
-                  <article class="product__card ">
-                    <img
-                      class="product__img"
-                      src="img-ignore/auris.png"
-                      alt=""
-                    />
-                    <h4 class="product__name">AURIS ATH M50X</h4>
-                  </article>
-                </div>
-                <div class="grid-child novedad3">
-                  <article class="product__card ">
-                    <img
-                      class="product__img"
-                      src="img-ignore/ampliMARSHALL-novedad.jpg"
-                      alt=""/>
-                    <h4 class="product__name">Amplificador MARSHALL</h4>
-                  </article>
-                </div>
-                <div class="grid-child novedad4">
-                  <article class="product__card ">
-                    <img
-                      class="product__img adjust-img"
-                      src="img-ignore/saxoDorado-detalle.jpg"
-                      alt=""
-                    />
-                    <h4 class="product__name">Saxo Alto Knight</h4>
-                  </article>
-                </div>
-                <div class="grid-child subVermas">
-                  <button class="btn-ver-mas">VER MAS</button>
+        <div class="col-xl-3 col-md-6 col-12">
+          <div class="card my-3">
+            <img src="img-ignore/guitarra-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Guitarras</p>
             </div>
-        </main>
-        <div class="pre-footer__container">
+          </div>
+        </div>
 
-            <div class="pre-footer-left">
-              <div class="pre-footer__section">
-                <h4 class="pre-footer__title">Reservas</h4>
-              <i class="fa-solid fa-calendar"></i>
-              <p class="pre-footer__description">
-                Reservá tu turno para recibir instrumentos a arreglar, tomar
-                nuestros cursos y gestionar tus trámites
-              </p>
+        <div class="col-xl-3 col-md-6 col-12">
+          <div class="card my-3">
+            <img src="img-ignore/micShure-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Micrófonos</p>
             </div>
-            
-            <div class="pre-footer__section">
-              <h4 class="pre-footer__title">Como llegar</h4>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 col-12">
+          <div class="card my-3">
+            <img src="img-ignore/saxoPlateado-categoria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Saxofones</p>
+            </div>
+          </div>
+        </div>        
+      </div>
+      
+      <div class="row">
+        <button type="button" class="btn btn-info mx-auto w-auto boton-color-horrible">VER MAS</button>
+      </div>
+
+      <div class="row my-3">
+        <h2>NOVEDADES</h2>
+      </div>
+
+      <div class="row novedades-container">
+
+          <div class="col-xl-3 col-md-6 col-12">
+            <div class="card my-3">
+              <img src="img-ignore/ampliFENDER-novedad.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">FENDER KCG-511</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-xl-3 col-md-6 col-12">
+            <div class="card my-3">
+              <img src="img-ignore/ampliMARSHALL-novedad.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">MARSHAL REM HHG-6</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-xl-3 col-md-6 col-12">
+            <div class="card my-3">
+              <img src="img-ignore/bajoIvanez-novedad.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">IVANEZ 45 CUERDAS</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-xl-3 col-md-6 col-12">
+            <div class="card my-3">
+              <img src="img-ignore/clariLICOLN-novedad.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">LICOLN 3 1/2 8°</p>
+              </div>
+            </div>
+          </div>        
+        
+      </div>
+
+      <div class="row">
+        <button type="button" class="btn btn-info mx-auto w-auto boton-color-horrible">VER MAS</button>
+      </div>
+      
+      <div class="row prefooter-container">
+
+        <div class="col-xl-6 col-12 my-3">
+          <div class="d-flex flex-column align-items-center gap-3">
+            <h4 class="">Reservas</h4>
+            <i class="fa-solid fa-calendar"></i>
+            <p>Reservá tu turno para recibir instrumentos a arreglar, tomar nuestros cursos y gestionar tus trámites</p>
+          </div>
+        </div>
+
+        <div class="col-xl-6 col-12 my-3">
+          <div class="d-flex flex-column align-items-center gap-3">
+              <h4 class="">Como llegar</h4>
               <i class="fa-solid fa-bus-simple"></i>
-              <p class="pre-footer__description">
+              <p class="">
                 Colectivos: 115, 130A, 140A, 140D, 146, 50 A., 24, 124, 26, 99, 109,
                 113
               </p>
-              <p class="pre-footer__description">Tren: MITRE, SAN MARTÍN, SARMIENTO.</p>
-              <p class="pre-footer__description">Subte: B, C, D.</p>
+              <p class="">Tren: MITRE, SAN MARTÍN, SARMIENTO.</p>
+              <p class="">Subte: B, C, D.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row my-3">
+          <div class="col">
+            <div class="gmap_canvas">
+              <iframe width="100%" height="344" id="gmap_canvas" src="https://maps.google.com/maps?q=Tacuar%C3%AD%20432,%20Buenos%20Aires&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+              <style>.mapouter{position:relative;text-align:center;height:344px;width:auto;}</style>
+              <a href="https://www.embedgooglemap.net"></a>
+              <style>.gmap_canvas {overflow:hidden;background:none!important;height:344px;}
+            </style>
             </div>
           </div>
-            
-            <div class="mapouter pre-footer__section">
-                  <div class="gmap_canvas">
-                    <iframe width="85%" height="344" id="gmap_canvas" src="https://maps.google.com/maps?q=Tacuar%C3%AD%20432,%20Buenos%20Aires&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                    <style>.mapouter{position:relative;text-align:center;height:344px;width:auto;}</style>
-                    <a href="https://www.embedgooglemap.net"></a>
-                    <style>.gmap_canvas {overflow:hidden;background:none!important;height:344px;width:85vw;}
-                    </style>
-                  </div>
-              </div>
+      </div>
+
+    </main>
+
+    <footer class="container-sm">
+      <div class="row gap-5 my-5">
+        
+        <div class="col-xl col-12 d-flex flex-column flex-xl-column align-items-center">
+          <h4>Horarios de atencion</h4>
+          <ul class="d-flex flex-column align-items-center gap-2">
+            <li>Lunes a Viernes</li>
+            <li>8 a 17hs</li>
+            <li>Sabados y Domingos</li>
+            <li>10 a 13hs</li>
+          </ul>
         </div>
+
+        <div class="col-xl col-12 d-flex flex-column flex-xl-column align-items-center">
+          <h4>Teléfonos</h4>
+          <ul class="d-flex flex-column align-items-center gap-2">
+            <li>Administración 6585-6958 int.01</li>
+            <li>Ventas 6585-6958 int.02 / 11-36491062</li>
+            <li>Luthier 6585-6958 int.03</li>
+            <li>Posventa 6585-6958 int.05</li>
+          </ul>
+        </div>
+
+        <div class="col-xl col-12 d-flex flex-column flex-xl-column align-items-center">
+          <h4>Dirección</h4>
+          <ul class="d-flex flex-column align-items-center gap-2">
+            <li>Tacuarí 432</li>
+            <li>Esquina Avenida Belgrano</li>
+            <li>Plata Baja 02</li>
+            <li>Microcentro, C.A.B.A</li>
+            <li>Argentina</li>
+          </ul>
+        </div>
+
+        <div class="col-xl col-12 d-flex flex-column flex-xl-column align-items-center">
+          <h4>Legales</h4>
+          <ul class="d-flex flex-column align-items-center gap-2">
+            <li>Datos Personales</li>
+            <li>Condiciones de Uso</li>
+            <li>Defensa del Consumidor</li>
+          </ul>
+        </div>
+        
+        <div class="col-xl col-12 d-flex flex-column flex-xl-column align-items-center">
+          <h4>Tarjetas</h4>
+          <ul class="d-flex flex-column align-items-center gap-2">
+            <li><img class="tarjetas" src="img-ignore/pagos__.png" alt=""></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p id="footer-copyright">MusicMechanics - 2022 - Todos los derechos reservados</p>
+        </div>
+      </div>
+        
+    </footer>
+
     
-        <footer class="footer-main__container">
-          <div class="footer-main__section horarios">
-            <h4>Horarios de atencion</h4>
-            <ul>
-              <li>Lunes a Viernes</li>
-              <li>8 a 17hs</li>
-              <li>Sabados y Domingos</li>
-              <li>10 a 13hs</li>
-            </ul>
-          </div>
-    
-          <div class="footer-main__section telefonos">
-            <h4>Teléfonos</h4>
-            <ul>
-              <li>Administración 6585-6958 int.01</li>
-              <li>Ventas 6585-6958 int.02 / 11-36491062</li>
-              <li>Luthier 6585-6958 int.03</li>
-              <li>Posventa 6585-6958 int.05</li>
-            </ul>
-          </div>
-    
-          <div class="footer-main__section direccion">
-            <h4>Dirección</h4>
-            <ul>
-              <li>Tacuarí 432</li>
-              <li>Esquina Avenida Belgrano</li>
-              <li>Plata Baja 02</li>
-              <li>Microcentro, C.A.B.A</li>
-              <li>Argentina</li>
-            </ul>
-          </div>
-    
-          <div class="footer-main__section tarjetas">
-            <h4>Tarjetas</h4>
-            <ul>
-              <li><img src="img-ignore/pagos__.png" alt=""></li>
-     
-            </ul>
-          </div>
-    
-          <div class="footer-main__section legales">
-            <h4>Legales</h4>
-            <ul>
-              <li>Datos Personales</li>
-              <li>Condiciones de Uso</li>
-              <li>Defensa del Consumidor</li>
-            </ul>
-          </div>
-        </footer>
-    
-        <p id="footer-copyright">MusicMechanics - 2022 - Todos los derechos reservados</p>
-      </body>
-    </html>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

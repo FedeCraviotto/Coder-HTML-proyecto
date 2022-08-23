@@ -11,14 +11,14 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/0e67ccfcb0.js" crossorigin="anonymous"></script>
   </head>
-  <body>
+  <body class="bgColor02">
 
     <header class="container-fluid p-0">
 
-      <div class="navbar w-100 navbar-expand-lg bgC-E8 position-fixed sticky-top">
+      <div class="navbar w-100 navbar-expand-lg bgColor01 position-fixed sticky-top">
   
-        <div class="logo-container">
-          <img class="logo" src="img/OVM-logo.png" alt="">
+        <div class="logo">
+          <img class="logo__img" src="img/OVM-logo.png" alt="">
         </div>
 
         <div class="flex-lg-grow-1 mx-auto">
@@ -28,21 +28,21 @@
           </button>
 
           <nav class="collapse navbar-collapse flex-lg-grow-1" id="navbarNav">
-            <ul class="navbar-nav fs-5 justify-content-lg-evenly flex-lg-grow-1">
+            <ul class="navbar-nav fs-5 justify-content-lg-evenly flex-lg-grow-1 ulDefault">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active anchorDefault anchorDefault--underline" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="secciones/productos.html">Productos</a>
+                <a class="nav-link active anchorDefault anchorDefault--underline" href="secciones/productos.html">Productos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="secciones/nosotros.html">Nosotros</a>
+                <a class="nav-link active anchorDefault anchorDefault--underline" href="secciones/nosotros.html">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="secciones/equipo.html">Equipo</a>
+                <a class="nav-link active anchorDefault anchorDefault--underline" href="secciones/equipo.html">Equipo</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="secciones/contacto.html">Contacto</a>
+                <a class="nav-link active anchorDefault anchorDefault--underline" href="secciones/contacto.html">Contacto</a>
               </li>
             </ul>
           </nav>
@@ -54,23 +54,23 @@
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
 
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/carr-01.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-item active carousel-item--scenario-position">
+            <img src="img/carr-01.jpg" class="d-block w-100" alt="Scenario">
           </div>
-          <div class="carousel-item" id="lower1">
-            <img src="img/carr-02.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-item carousel-item--saxophonist-position">
+            <img src="img/carr-02.jpg" class="d-block w-100" alt="Saxophonist">
           </div>
-          <div class="carousel-item" id="lower2">
-            <img src="img/carr-03.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-item carousel-item--fenderGuitarrist-position">
+            <img src="img/carr-03.jpg" class="d-block w-100" alt="FenderGuitarrist">
           </div>
         </div>
       </div>
 
     </header>
 
-    <main class="container-lg p-4 mainBC">
+    <main class="container-lg p-4">
 
-      <h2 class="mt-3">CATEGORIAS</h2>
+      <h2 class="mt-3 titleDefault">CATEGORIAS</h2>
       <section class="row categorias-container">
 
         <article class="col-sm-6 col-md-3 col-12">
@@ -112,14 +112,14 @@
       </section>
       
       
-      <a href="secciones/productos.html">
-        <button type="button" class="btn btn-info mx-auto w-auto boton-color-horrible d-block my-5">
+      <a class="anchorDefault" href="secciones/productos.html">
+        <button type="button" class="btn mx-auto w-auto btn--azure d-block my-5">
           VER MAS
         </button>
       </a>
       
       
-      <h2 class="">NOVEDADES</h2>
+      <h2 class="titleDefault">NOVEDADES</h2>
       
       <section class="row novedades-container">
 
@@ -161,48 +161,48 @@
         
         </section>
 
-      <a href="secciones/productos.html">
-        <button type="button" class="btn btn-info mx-auto w-auto boton-color-horrible d-block my-5">
+      <a class="anchorDefault" href="secciones/productos.html">
+        <button type="button" class="btn mx-auto w-auto btn--azure d-block my-5">
           VER MAS
         </button>
       </a>
       
-      <section class="row prefooter-container">
+      <section class="row">
 
-        <div class="col-xl-6 col-12 my-3 d-flex flex-column align-items-center">
-            <h4 class="">Reservas</h4>
-            <i class="fa-solid fa-calendar my-3"></i>
-            <p>Reservá tu turno para recibir instrumentos a arreglar, tomar nuestros cursos y gestionar tus trámites</p>
+        <div class="col-xl-6 col-12 my-3 d-flex flex-column align-items-center prefooter-section">
+            <h4 class="prefooter__subtitle">Reservas</h4>
+            <i class="fa-solid fa-calendar my-3 fa-solid--large"></i>
+            <p class="prefooter-section__text">Reservá tu turno para recibir instrumentos a arreglar, tomar nuestros cursos y gestionar tus trámites</p>
         </div>
 
-        <div class="col-xl-6 col-12 my-3 d-flex flex-column align-items-center">
-          <h4 class="">Como llegar</h4>
-          <i class="fa-solid fa-bus-simple my-3"></i>
-          <p class="">
+        <div class="col-xl-6 col-12 my-3 d-flex flex-column align-items-center prefooter-section">
+          <h4 class="prefooter__subtitle">Como llegar</h4>
+          <i class="fa-solid fa-bus-simple my-3 fa-solid--large"></i>
+          <p class="prefooter-section__text">
             Colectivos: 115, 130A, 140A, 140D, 146, 50 A., 24, 124, 26, 99, 109,
             113
           </p>
-          <p class="">Tren: MITRE, SAN MARTÍN, SARMIENTO.</p>
-          <p class="">Subte: B, C, D.</p>
+          <p class="prefooter-section__text">Tren: MITRE, SAN MARTÍN, SARMIENTO.</p>
+          <p class="prefooter-section__text">Subte: B, C, D.</p>
         </div>
       </section>
 
       <div class="gmap_canvas">
           <iframe width="100%" height="344" id="gmap_canvas" src="https://maps.google.com/maps?q=Tacuar%C3%AD%20432,%20Buenos%20Aires&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
           <style>.mapouter{position:relative;text-align:center;height:344px;width:auto;}</style>
-          <a href="https://www.embedgooglemap.net"></a>
+          <a class="anchorDefault" href="https://www.embedgooglemap.net"></a>
           <style>.gmap_canvas {overflow:hidden;background:none!important;height:344px;}
         </style>
       </div>
 
     </main>
 
-    <footer class="container-fluid ">
+    <footer class="container-fluid footer">
       <div class="row gap-5">
         
         <div class="col-xl col-12 d-flex flex-column flex-xl-column align-items-center order-1">
-          <h4>Horarios</h4>
-          <ul class="d-flex flex-column align-items-center gap-2">
+          <h4 class="footer__subtitle">Horarios</h4>
+          <ul class="d-flex flex-column align-items-center gap-2 ulDefault">
             <li>Lunes a Viernes</li>
             <li>8 a 17hs</li>
             <li>Sabados y Domingos</li>
@@ -211,8 +211,8 @@
         </div>
 
         <div class="col-xl col-12 d-flex flex-column flex-xl-column align-items-center order-2">
-          <h4>Teléfonos</h4>
-          <ul class="d-flex flex-column align-items-center gap-2">
+          <h4 class="footer__subtitle">Teléfonos</h4>
+          <ul class="d-flex flex-column align-items-center gap-2 ulDefault">
             <li>Administración 6585-6958 int.01</li>
             <li>Ventas 6585-6958 int.02 / 11-36491062</li>
             <li>Luthier 6585-6958 int.03</li>
@@ -221,8 +221,8 @@
         </div>
 
         <div class="col-xl col-12 d-flex flex-column flex-xl-column align-items-center order-3">
-          <h4>Dirección</h4>
-          <ul class="d-flex flex-column align-items-center gap-2">
+          <h4 class="footer__subtitle">Dirección</h4>
+          <ul class="d-flex flex-column align-items-center gap-2 ulDefault">
             <li>Tacuarí 432</li>
             <li>Esquina Avenida Belgrano</li>
             <li>Plata Baja 02</li>
@@ -233,15 +233,15 @@
 
         
         <div class="col-xl col-12 d-flex flex-column flex-xl-column align-items-center order-0 order-xl-2">
-          <h4>Tarjetas</h4>
+          <h4 class="footer__subtitle">Tarjetas</h4>
           <div class="d-flex flex-column align-items-center">
-            <img class="tarjetas" src="img/pagos__.png" alt="">
+            <img class="footer__tarjetas" src="img/pagos__.png" alt="">
           </div>
         </div>
 
         <div class="col-xl col-12 d-flex flex-column flex-xl-column align-items-center order-5">
-          <h4>Legales</h4>
-          <ul class="d-flex flex-column align-items-center gap-2">
+          <h4 class="footer__subtitle">Legales</h4>
+          <ul class="d-flex flex-column align-items-center gap-2 ulDefault">
             <li>Datos Personales</li>
             <li>Condiciones de Uso</li>
             <li>Defensa del Consumidor</li>
@@ -250,10 +250,8 @@
         
       </div>
 
-      <p id="footer-copyright" class="mb-0">OtroVientoMejor - 2022 - Todos los derechos reservados</p> 
+      <p class="footer__copyright" class="mb-0">OtroVientoMejor - 2022 - Todos los derechos reservados</p> 
     </footer>
-
-    
     <script src="bootstrap.js"></script>
   </body>
 </html>

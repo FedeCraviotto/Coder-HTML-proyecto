@@ -1,21 +1,26 @@
-.artist__desc {
-    margin: 20px auto;
-    max-width: 470px;
-}
+@import "../utils/mixins";
 
-.artist__img {
-    width: 250px;
-    height: 220px;
-    overflow: hidden;
-    border-radius: 50%;
+.artist {
+    &__desc {
+        margin: 20px auto;
+        max-width: 470px;
+        @include b992 {
+            width: 100%;
+        }
+    }
+    &__img {
+        width: 250px;
+        height: 220px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+    
+    &__name {
+        color: $cStrongBlue;
+        text-align: center;
+        margin: 30px 0px;
+    }
 }
-
 .nosotros-section{
     text-align: justify;
-}
-
-@media screen and (min-width:992px) {
-    .artist__desc {
-        width: 100%;
-    }
 }

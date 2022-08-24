@@ -1,14 +1,35 @@
 @import "../utils/variables";
 
-.btn--azure {
-    background-color: $bgcBtnAzure;
-    border: none; /*SASS OK*/
-    font-size: 16px;
+%moldebtn {
+    border: none; 
     padding: 10px 50px;
     font-weight: 700;
 }
-
-.btn--azure:hover {
-    background-color: $bgcLightBlue;
-    color: $cStrongBlue;
+.btn {
+    @extend %moldebtn;
+    color:  $cBtnRubi;
+    background-color: $bgcBtnComun;
+    border: 1px solid $cBtnRubi;
+}
+.btn:hover {
+    background-color: $bgcBtnComunHover;
+    cursor: pointer;
+}
+.btn--azure {
+    @extend %moldebtn;
+    background-color: $bgcBtnAzure;
+}
+.btn--rubi {
+    @extend %moldebtn;
+    background-color: $bgcBtnRubi;
+}
+.btn-- {
+    &azure:hover {
+        background-color: $bgcLightBlue;
+        color: $cStrongBlue;
+    }
+    &rubi:hover {
+        background-color: $bgcBtnRubiHover;
+        color: $cBtnRubiHover;
+    }
 }

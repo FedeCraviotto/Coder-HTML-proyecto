@@ -1,16 +1,19 @@
 @import "../utils/variables";
 
-.footer__copyright {
-    text-align: left;
-    font-size: 12px;
-    padding: 20px 0px 10px 0px;
+.footer__{
+    &tarjetas {
+        width: 100%;
+    }
+    &copyright {
+        text-align: left;
+        padding: 20px 0px 10px 0px;
+    }
+    &subtitle{
+        text-align: center;
+        margin: 30px 0px;
+    }
 }
-
 .footer {
     background-color:$cDarkBlue;
     color: $cWhite;
-}
-
-.footer__tarjetas {
-    width: 100%;
 }

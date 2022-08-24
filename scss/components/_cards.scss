@@ -4,37 +4,58 @@
     border: none;
     border-radius: 25px;
     overflow: hidden;
-}
-
-.card {
     transition: all 0.5s;
-}
-.card:hover {
-    transform: scale(1.08);
-    box-shadow: 0 0 20px 0px $cardShadow;
-}
-.card {
     position: relative;
 }
 
-.card::after {
-    transform: scaleX(0);
-    transform-origin: bottom right;
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    inset: 0 0 0 0;
-    background: $cardAfter;
-    z-index: 2;
-    transition: transform .3s ease;
+.card {
+    &-text {
+        text-align:center;
+    }
+    &:hover {
+        transform: scale(1.08);
+        box-shadow: 0 0 20px 0px $cardShadow;
+        cursor: pointer;
+    }
+    &:hover::after{
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+    &::after {
+        transform: scaleX(0);
+        transform-origin: bottom right;
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0; right: 0; bottom: 0; left: 0;
+        inset: 0 0 0 0;
+        background: $cardAfter;
+        z-index: 2;
+        transition: transform .3s ease;
+}
+};
+// .card-text {
+//     text-align:center;
+// }
 
-}
-.card:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-
-.card-text {
-    text-align:center;
-}
+// .card:hover {
+//     transform: scale(1.08);
+//     box-shadow: 0 0 20px 0px $cardShadow;
+//     cursor: pointer;
+// }
+// .card::after {
+//     transform: scaleX(0);
+//     transform-origin: bottom right;
+//     content: "";
+//     display: block;
+//     position: absolute;
+//     top: 0; right: 0; bottom: 0; left: 0;
+//     inset: 0 0 0 0;
+//     background: $cardAfter;
+//     z-index: 2;
+//     transition: transform .3s ease;
+// }
+// .card:hover::after {
+//     transform: scaleX(1);
+//     transform-origin: bottom left;
+// };

@@ -1,0 +1,21 @@
+.artist__desc {
+    margin: 20px auto;
+    max-width: 470px;
+}
+
+.artist__img {
+    width: 250px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.nosotros-section{
+    text-align: justify;
+}
+
+@media screen and (min-width:992px) {
+    .artist__desc {
+        width: 100%;
+    }
+}

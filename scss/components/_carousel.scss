@@ -1,0 +1,30 @@
+@media screen and (min-width:1200px) {
+    .carousel-item--scenario-position {
+        top:-50px;
+    }
+    .carousel-item--saxophonist-position {
+        top:-50px;
+    }
+    .carousel-item--fenderGuitarrist-position {
+        top:-50px;
+    }
+}
+
+@media screen and (min-width:2100px) {
+    .carousel-item {
+        position: relative;
+        top:auto;
+    }
+    .carousel-item--scenario-position {
+        top:auto;
+    }
+    .carousel-item--saxophonist-position {
+        top:auto;
+    }
+    .carousel-item--fenderGuitarrist-position {
+        top:auto;
+    }
+    .carousel-inner {
+        height: auto;
+    }
+}

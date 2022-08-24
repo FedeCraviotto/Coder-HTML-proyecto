@@ -1,0 +1,16 @@
+@import "../utils/variables";
+
+.footer__copyright {
+    text-align: left;
+    font-size: 12px;
+    padding: 20px 0px 10px 0px;
+}
+
+.footer {
+    background-color:$cDarkBlue;
+    color: $cWhite;
+}
+
+.footer__tarjetas {
+    width: 100%;
+}

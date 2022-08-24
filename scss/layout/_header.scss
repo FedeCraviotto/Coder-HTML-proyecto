@@ -1,0 +1,35 @@
+.logo {
+    margin-top: 5px;
+    width: 160px;
+    height: 50px;
+}
+.logo__img {
+    width: 56%;
+}
+
+.logos-button-container {
+    width: 100%;
+}
+@media screen and (min-width:992px) {
+    .logo {
+        height: 85px;
+    }
+    .logo__img {
+        width: 100%;
+    }
+}
+@media screen and (min-width:992px) {
+    .logo {
+        margin-left: 40px;
+    } 
+    .logos-button-container {
+        width: auto;
+    } 
+}
+
+@media screen and (min-width:2100px) {
+    .logo {
+        width: 9%;
+        height: auto;
+    }
+}

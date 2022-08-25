@@ -481,38 +481,39 @@ body {
   transition: transform 0.3s ease;
 }
 
-.btn--rubi, .btn--azure, .btn {
+.btn--rubi, .btn--azure {
   border: none;
   padding: 10px 50px;
   font-weight: 700;
 }
 
-.btn {
-  color: rgb(44, 22, 2);
-  background-color: #d5d5bd;
-  border: 1px solid rgb(44, 22, 2);
-}
-
-.btn:hover {
-  background-color: floralwhite;
-  cursor: pointer;
-}
-
 .btn--azure {
   background-color: rgb(166, 185, 218);
+  color: #273469;
+  border: 0.5px solid #273469;
 }
 
 .btn--rubi {
-  background-color: rgb(177, 140, 111);
+  color: #4a2802;
+  background-color: floralwhite;
+  border: 0.5px solid #4a2802;
 }
 
+.btn--azure:active {
+  background-color: rgb(166, 185, 218);
+  color: #273469;
+  border: none;
+}
+.btn--rubi:active {
+  background-color: floralwhite;
+  color: #4a2802;
+  border: none;
+}
 .btn--azure:hover {
   background-color: rgba(134, 140, 167, 0.1411764706);
-  color: #273469;
 }
 .btn--rubi:hover {
-  background-color: rgb(231, 219, 200);
-  color: #874800;
+  background-color: #ffffff;
 }
 
 /*# sourceMappingURL=styles.css.map */

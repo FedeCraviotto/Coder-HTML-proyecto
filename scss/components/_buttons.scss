@@ -5,31 +5,33 @@
     padding: 10px 50px;
     font-weight: 700;
 }
-.btn {
-    @extend %moldebtn;
-    color:  $cBtnRubi;
-    background-color: $bgcBtnComun;
-    border: 1px solid $cBtnRubi;
-}
-.btn:hover {
-    background-color: $bgcBtnComunHover;
-    cursor: pointer;
-}
 .btn--azure {
     @extend %moldebtn;
-    background-color: $bgcBtnAzure;
+    background-color: $azulSoft;
+    color: $azulStrong;
+    border:0.5px solid $azulStrong;
 }
 .btn--rubi {
     @extend %moldebtn;
-    background-color: $bgcBtnRubi;
+    color: $naranjaStrong;
+    background-color: $bgcBtnComunHover;
+    border:0.5px solid $naranjaStrong;
 }
 .btn-- {
+    &azure:active {
+        background-color: $azulSoft;
+        color: $azulStrong;
+        border:none;
+    }
+    &rubi:active {
+        background-color: $bgcBtnComunHover;
+        color: $naranjaStrong;
+        border:none;
+    }
     &azure:hover {
         background-color: $bgcLightBlue;
-        color: $cStrongBlue;
     }
     &rubi:hover {
-        background-color: $bgcBtnRubiHover;
-        color: $cBtnRubiHover;
+        background-color: $cWhite;
     }
 }

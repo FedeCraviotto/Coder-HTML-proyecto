@@ -123,7 +123,6 @@ body {
 }
 @media (min-width: 2100px) {
   .logo-container {
-    width: 9%;
     height: auto;
   }
 }

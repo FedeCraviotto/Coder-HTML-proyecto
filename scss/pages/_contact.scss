@@ -1,20 +1,49 @@
 @import "../utils/mixins";
 
 .contact {
+    &-form {
+        row-gap: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      
+    &-form div{
+        position: relative;
+        width: 100%;
+      }
+      
+    &-form div label {
+        position: absolute;
+        top: -28px;
+        transition: all 0.3s ease-in;
+      }
+      
+    &-form input:focus + .form-label {
+        font-size: 18px;
+        font-weight: 700;
+        color: #273469;
+      }
+      
+    &-form textarea:focus + .form-label {
+        font-size: 18px;
+        font-weight: 700;
+        color: #273469;
+      }
     &-youtube {
-        height: 340px;
-        @include b576 {
-            height: 400px;
-        }
-        @include b768 {
-            height: 500px;
-        }
-        @include b992 {
-            height: 700px;
-        }
-        @include b1200 {
-            height: 400px;
-        }   
+    height: 340px;
+    @include b576 {
+        height: 400px;
+    }
+    @include b768 {
+        height: 500px;
+    }
+    @include b992 {
+        height: 700px;
+    }
+    @include b1200 {
+        height: 400px;
+    }   
     }
     &-youtube__text {
         margin: 10px 30px;
@@ -36,3 +65,9 @@
         }   
     }
 }
+
+
+
+
+
+    

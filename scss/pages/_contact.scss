@@ -1,0 +1,38 @@
+@import "../utils/mixins";
+
+.contact {
+    &-youtube {
+        height: 340px;
+        @include b576 {
+            height: 400px;
+        }
+        @include b768 {
+            height: 500px;
+        }
+        @include b992 {
+            height: 700px;
+        }
+        @include b1200 {
+            height: 400px;
+        }   
+    }
+    &-youtube__text {
+        margin: 10px 30px;
+        text-align: center;
+    }
+    &-youtube__iframe {
+        height: 250px;
+        @include b576 {
+            height: 350px;
+        }
+        @include b768 {
+            height: 400px;
+        }
+        @include b992 {
+            height: 550px;
+        }
+        @include b1200 {
+            height: 350px;
+        }   
+    }
+}

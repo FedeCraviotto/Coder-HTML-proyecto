@@ -1,0 +1,19 @@
+//Primero variables
+@import "./utils/variables";
+@import "./utils/bucles";
+@import "./utils/mixins";
+//Segundo lo general
+@import "./pages/shared";
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/prefooter";
+//Tercero lo general para cada pagina en particular
+@import "./pages/aboutUs";
+@import "./pages/contact";
+@import "./pages/products";
+@import "./pages/team";
+//Últimos los componentes
+@import "./components/navbar";
+@import "./components/carousel";
+@import "./components/cards";
+@import "./components/buttons";

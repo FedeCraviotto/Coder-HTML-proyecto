@@ -1,0 +1,26 @@
+@import "../utils/mixins";
+
+.artist {
+    &__desc {
+        margin: 20px auto;
+        max-width: 470px;
+        @include b992 {
+            width: 100%;
+        }
+    }
+    &__img {
+        width: 250px;
+        height: 220px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+    
+    &__name {
+        color: $azulStrong;
+        text-align: center;
+        margin: 30px 0px;
+    }
+}
+.nosotros-section{
+    text-align: justify;
+}

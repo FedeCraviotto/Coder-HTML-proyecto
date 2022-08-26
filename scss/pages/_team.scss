@@ -1,0 +1,18 @@
+@import "../utils/variables";
+.member{
+    &__img {
+        max-width: 250px;
+        min-width: 200px;
+    }
+    &__img-container {
+        max-height: 230px;
+        min-height: 200px;
+        overflow: hidden;
+    }
+    &__desc {
+        text-align: justify;
+    }
+    &__name {
+        color: $azulStrong;
+    }
+}

@@ -1,0 +1,37 @@
+@import "../utils/variables";
+
+%moldebtn {
+    border: none; 
+    padding: 10px 50px;
+    font-weight: 700;
+}
+.btn--azure {
+    @extend %moldebtn;
+    background-color: $azulSoft;
+    color: $azulStrong;
+    border:0.5px solid $azulStrong;
+}
+.btn--rubi {
+    @extend %moldebtn;
+    color: $naranjaStrong;
+    background-color: $bgcBtnComunHover;
+    border:0.5px solid $naranjaStrong;
+}
+.btn-- {
+    &azure:active {
+        background-color: $azulSoft;
+        color: $azulStrong;
+        border:none;
+    }
+    &rubi:active {
+        background-color: $bgcBtnComunHover;
+        color: $naranjaStrong;
+        border:none;
+    }
+    &azure:hover {
+        background-color: $bgcLightBlue;
+    }
+    &rubi:hover {
+        background-color: $cWhite;
+    }
+}

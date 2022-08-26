@@ -1,0 +1,29 @@
+@import "../utils/mixins";
+
+.logo{
+    &-container {
+        margin-top: 5px;
+        width: 160px;
+        height: 50px;
+        @include b992 {
+            height: 85px;
+            margin-left: 40px;
+        }
+        @include b2100 {
+            height: auto;
+        }
+    }
+    &__img {
+        width: 56%;
+        @include b992 {
+            width: 100%;
+        }
+    }
+};
+
+.logos-button-container {
+    width: 100%;
+    @include b992 {
+        width: auto;
+    }
+};

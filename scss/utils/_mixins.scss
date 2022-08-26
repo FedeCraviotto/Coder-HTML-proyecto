@@ -1,0 +1,28 @@
+@mixin b576 {
+    @media (min-width:576px) {
+        @content
+    }
+};
+
+@mixin b768 {
+    @media (min-width:768px) {
+        @content
+    }
+};
+
+@mixin b992 {
+    @media (min-width:992px) {
+        @content
+    }
+};
+
+@mixin b1200 {
+    @media (min-width:1200px) {
+        @content
+    }
+};
+@mixin b2100 {
+    @media (min-width:2100px) {
+        @content
+    }
+};

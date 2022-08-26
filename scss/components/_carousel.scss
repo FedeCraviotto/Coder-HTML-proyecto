@@ -1,0 +1,23 @@
+@import "../utils/mixins";
+
+.carousel {
+    &-item {
+        @include b1200 {
+            position: relative; /*no se si estaba, borrar sino*/
+            top:-50px;
+        }
+        @include b2100 {
+            position: relative;
+            top:auto
+        }
+    }
+    &-inner {
+        @include b2100 {
+            height: auto;
+        }
+    }
+    &-item--scenario-position {
+        @include b1200 {
+        }
+    }
+}

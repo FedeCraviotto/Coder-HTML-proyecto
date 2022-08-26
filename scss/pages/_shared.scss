@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Serif+Pro:ital,wght@0,600;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Alfa+Slab+One&display=swap");
 @import "../utils/variables";
 
 * {
@@ -17,6 +17,17 @@ ol, ul {
 body {
     background-color: $bgcLightBlue;
 }
+
+h1:first-child {
+    /* color: #2B475C; */
+    /* color: #43749d; */
+    color: #392C5C;
+    width: fit-content;
+    padding: 20px;
+    margin: 30px auto;
+    text-shadow: 2px 2px #2B475C;
+    font-family: "Alfa Slab One", cursive;
+  }
 
 .ulDefault {
     padding: 0px;

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Serif+Pro:ital,wght@0,600;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Alfa+Slab+One&display=swap");
 .fontSize-12 {
   font-size: 12px;
 }
@@ -75,6 +75,17 @@ ol, ul {
 
 body {
   background-color: rgba(134, 140, 167, 0.1411764706);
+}
+
+h1:first-child {
+  /* color: #2B475C; */
+  /* color: #43749d; */
+  color: #392C5C;
+  width: fit-content;
+  padding: 20px;
+  margin: 30px auto;
+  text-shadow: 2px 2px #2B475C;
+  font-family: "Alfa Slab One", cursive;
 }
 
 .ulDefault {
@@ -384,6 +395,10 @@ body {
   .products-radios__desc {
     font-size: 18px;
   }
+}
+
+.form-check {
+  padding: 0px;
 }
 
 .member__img {

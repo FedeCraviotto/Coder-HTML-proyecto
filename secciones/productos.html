@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-=1.0" />
     <title>
-      OVM - Listado de Productos
+      Otro Viento Mejor || Productos
     </title>
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/styles.css">
@@ -56,14 +56,23 @@
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
 
         <div class="carousel-inner">
-          <div class="carousel-item carousel-item--scenario-position">
-            <img src="../img/carr-01.jpg " class="d-block w-100" alt="Scenario">
+          <div class="carousel-item active carousel-item--scenario-position">
+            <picture>
+              <source srcset="../img/carr-01-desktop.jpg" media="(min-width:1200px)">
+              <img src="../img/carr-01-mobile.jpg" class="d-block w-100" alt="Scenario">
+            </picture>
           </div>
           <div class="carousel-item carousel-item--saxophonist-position">
-            <img src="../img/carr-02.jpg" class="d-block w-100" alt="Saxophonist">
+            <picture>
+              <source srcset="../img/carr-02-desktop.jpg" media="(min-width:1200px)">
+              <img src="../img/carr-02-mobile.jpg" class="d-block w-100" alt="Saxophonist">
+            </picture>
           </div>
-          <div class="carousel-item active carousel-item--fenderGuitarrist-position">
-            <img src="../img/carr-03.jpg" class="d-block w-100" alt="FenderGuitarrist">
+          <div class="carousel-item carousel-item--fenderGuitarrist-position">
+            <picture>
+              <source srcset="../img/carr-03-desktop.jpg" media="(min-width:1200px)">
+              <img src="../img/carr-03-mobile.jpg" class="d-block w-100" alt="FenderGuitarrist">
+            </picture>
           </div>
         </div>
       </div>
@@ -71,6 +80,7 @@
 
     <main class="container-lg p-4">
 
+      <h1 class="titleDefault">Listado de Productos</h1>
       <div class="search-bar form-control d-flex align-items-center mb-3">
         <input class="search-bar__filter border-0" id="search-input" placeholder="Búsqueda por marca, producto, modelo, tipo">
         <label for="search-input">

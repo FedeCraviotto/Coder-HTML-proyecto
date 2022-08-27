@@ -577,3 +577,125 @@ h1:first-child {
 }
 
 /*# sourceMappingURL=styles.css.map */
+
+.carousel {
+  position: relative;
+}
+
+.carousel-btn1--position {
+  left: 24%;
+}
+.carousel-btn2--position {
+  left: 51%;
+}
+.carousel-btn3--position {
+  left: 66%;
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button a:hover {
+  color: #273469;
+}
+
+.btnCTA {
+  position: absolute;
+  top: 8%;
+  display: none;
+  font-size: 0.7rem;
+  align-items: center;
+  box-shadow: rgba(207, 204, 210, 0.852) 0 15px 30px -5px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  letter-spacing: .4px;
+  user-select: none;
+  touch-action: manipulation;
+  height: 34px;
+  padding: 20px;
+}
+.btnCTA a{
+  transition: all 200ms;
+}
+.btnCTA-2 {
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+}
+.btnCTA-1 {
+  background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+ 
+      /*
+  Que arranquen con display: none;
+  A partir de 768px porque antes de eso no hay necesidad, al menos de que estén los 3 botones
+  display: block;
+  height: 34;
+  */
+}
+
+@media screen and (min-width:768px) {
+  .carousel-btn1--position {
+    left: 16%;
+  }
+  .carousel-btn2--position {
+    left: 48%;
+  }
+  .carousel-btn3--position {
+    left: 65%;
+  }
+  .btnCTA {
+    display: flex;
+  }
+  .carousel-opacity {
+    opacity: 0.8;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .btnCTA {
+    font-size: 1rem;
+    padding: 26px;
+  }
+  .carousel-btn1--position {
+    left: 16%;
+  }
+  .carousel-btn2--position {
+    left: 48%;
+  }
+  .carousel-btn3--position {
+    left: 65%;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .btnCTA {
+    padding: 34px;
+  }
+  .carousel-btn1--position {
+  left: 24%;
+  }
+  .carousel-btn2--position {
+    left: 51%;
+  }
+  .carousel-btn3--position {
+    left: 66%;
+  }
+}
+
+@media screen and (min-width:2100px) {
+  .btnCTA {
+    font-size: 2rem;
+    padding: 38px;
+    top:12%;
+  }
+  .carousel-btn1--position {
+  left: 24%;
+  }
+  .carousel-btn2--position {
+    left: 49%;
+  }
+  .carousel-btn3--position {
+    left: 64%;
+  }
+}

@@ -34,7 +34,9 @@
 
         <div class="logos-button-container d-flex justify-content-around align-items-center">
           <div class="logo-container">
-            <img class="logo__img" src="img/OVM-logo.png" alt="LogoOVM">
+            <a href="#">
+              <img class="logo__img" src="img/OVM-logo.png" alt="LogoOVM">
+            </a>
           </div>
           <button class="navbar-toggler navcentro mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -71,7 +73,7 @@
 
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
 
-      <div class="carousel-inner">
+      <div class="carousel-inner carousel-opacity">
         <div class="carousel-item active carousel-item--scenario-position">
           <picture>
             <source srcset="img/carr-01-desktop.jpg" media="(min-width:1200px)">
@@ -91,10 +93,16 @@
           </picture>
         </div>
       </div>
+
+      <div>
+        <button class="btnCTA btnCTA-1 carousel-btn1--position" role="button"><a href="secciones/productos.html">ENCONTRÁ TODO ACA</a> </button>
+        <button class="btnCTA btnCTA-2 carousel-btn3--position" role="button"><a href="#categorias">CATEGORIAS</a></button>
+        <button class="btnCTA btnCTA-2 carousel-btn2--position" role="button"><a href="#novedades">NOVEDADES</a></button> 
+      </div>
     </div>
 
     <main class="container-lg p-4">
-      <h1 class="titleDefault">Instrumentos musicales de todo tipo</h1>
+      <h1 class="titleDefault" id="categorias">Instrumentos musicales de todo tipo</h1>
       <h2 class="mt-3 titleDefault">CATEGORIAS</h2>
       <section class="row categorias-container">
 
@@ -137,14 +145,14 @@
       </section>
       
       
-      <a class="anchorDefault" href="secciones/productos.html">
-        <button type="button" class="btn mx-auto w-auto btn--azure d-block my-5 fontSize-16">
-          VER MAS
+      <button type="button" class="btn mx-auto w-auto btn--azure d-block my-5 fontSize-16" id="novedades">
+          <a class="anchorDefault" href="secciones/productos.html">
+            VER MAS
+          </a>
         </button>
-      </a>
       
       
-      <h2 class="titleDefault">NOVEDADES</h2>
+      <h2 class="titleDefault" >NOVEDADES</h2>
       
       <section class="row novedades-container">
 
@@ -186,11 +194,11 @@
         
         </section>
 
-      <a class="anchorDefault" href="secciones/productos.html">
         <button type="button" class="btn mx-auto w-auto btn--azure d-block my-5 fontSize-16">
+          <a class="anchorDefault" href="secciones/productos.html">
           VER MAS
+        </a>
         </button>
-      </a>
       
       <section class="row">
 

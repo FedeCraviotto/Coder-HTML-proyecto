@@ -1,6 +1,15 @@
 @import "../utils/mixins";
 
 .carousel {
+    position: relative;
+  }
+
+.carousel {
+    &-opacity {
+        @include b768 {
+            opacity: 0.8;
+        }
+    }
     &-item {
         @include b1200 {
             position: relative; /*no se si estaba, borrar sino*/

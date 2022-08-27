@@ -7,17 +7,6 @@ $colores-btn: (
     contacto-background: floralwhite
 );
 
-// .btn--azure:active {
-//     background-color: rgb(166, 185, 218);
-//     color: #273469;
-//     border: none;
-//   }
-//   .btn--rubi:active {
-//     background-color: floralwhite;
-//     color: #4a2802;
-//     border: none;
-//   }
-
 %moldebtn {
     border: none; 
     padding: 10px 50px;
@@ -52,5 +41,82 @@ $colores-btn: (
         background-color: $cWhite;
         border:2px solid map-get($colores-btn, 'contacto-lineas');
         font-size: 14px;
+    }
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+}  
+button a:hover {
+color: #273469;
+}
+
+.btn {
+    &CTA {
+        position: absolute;
+        top: 8%;
+        display: none;
+        font-size: 0.7rem;
+        align-items: center;
+        box-shadow: rgba(207, 204, 210, 0.852) 0 15px 30px -5px;
+        border: none;
+        border-radius: 10px;
+        font-weight: 700;
+        letter-spacing: .4px;
+        user-select: none;
+        touch-action: manipulation;
+        height: 34px;
+        padding: 20px;
+        @include b768 {
+            display: flex;
+        }
+        @include b992 {
+            font-size: 1rem;
+            padding: 26px;
+        }
+        @include b1440 {
+            padding: 34px;
+        }
+        @include b2100 {
+            font-size: 2rem;
+            padding: 38px;
+        }
+    }
+    &CTA a {
+        transition: all 200ms;
+    }
+    &CTA-2 {
+        background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    } 
+    &CTA-1 {
+        background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    }
+}
+
+.carousel {
+    &-btn1--position {
+        left: 16%;
+        @include b1440 {
+            left: 24%;
+        }
+    }
+    &-btn2--position {
+        left: 48%;
+        @include b1440 {
+            left: 51%;
+        }
+        @include b2100 {
+            left: 49%;
+        }
+    }
+    &-btn3--position {
+        left: 65%;
+        @include b1440 {
+            left: 66%;
+        }
+        @include b2100 {
+            left: 64%;
+        }
     }
 }

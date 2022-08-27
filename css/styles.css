@@ -544,6 +544,7 @@ h1:first-child {
   border: none;
   padding: 10px 50px;
   font-weight: 700;
+  transition: all 0.2s ease-in;
 }
 
 .btn--azure {
@@ -553,26 +554,26 @@ h1:first-child {
 }
 
 .btn--rubi {
-  color: #4a2802;
   background-color: floralwhite;
+  color: #4a2802;
   border: 0.5px solid #4a2802;
 }
 
 .btn--azure:active {
-  background-color: rgb(166, 185, 218);
-  color: #273469;
   border: none;
 }
 .btn--rubi:active {
-  background-color: floralwhite;
-  color: #4a2802;
   border: none;
 }
 .btn--azure:hover {
   background-color: rgba(134, 140, 167, 0.1411764706);
+  border: 2px solid #273469;
+  font-size: 14px;
 }
 .btn--rubi:hover {
   background-color: #ffffff;
+  border: 2px solid #4a2802;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=styles.css.map */

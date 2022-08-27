@@ -1,37 +1,56 @@
 @import "../utils/variables";
 
+$colores-btn: (
+    producto-lineas:#273469,
+    producto-background: rgb(166,185,218),
+    contacto-lineas: #4a2802,
+    contacto-background: floralwhite
+);
+
+// .btn--azure:active {
+//     background-color: rgb(166, 185, 218);
+//     color: #273469;
+//     border: none;
+//   }
+//   .btn--rubi:active {
+//     background-color: floralwhite;
+//     color: #4a2802;
+//     border: none;
+//   }
+
 %moldebtn {
     border: none; 
     padding: 10px 50px;
     font-weight: 700;
+    transition: all 0.2s ease-in;
 }
 .btn--azure {
     @extend %moldebtn;
-    background-color: $azulSoft;
-    color: $azulStrong;
-    border:0.5px solid $azulStrong;
+    background-color:map-get($colores-btn, 'producto-background');
+    color:map-get($colores-btn, 'producto-lineas');
+    border:0.5px solid map-get($colores-btn, 'producto-lineas');
 }
 .btn--rubi {
     @extend %moldebtn;
-    color: $naranjaStrong;
-    background-color: $bgcBtnComunHover;
-    border:0.5px solid $naranjaStrong;
+    background-color:map-get($colores-btn, 'contacto-background');
+    color:map-get($colores-btn, 'contacto-lineas');
+    border:0.5px solid map-get($colores-btn, 'contacto-lineas');
 }
 .btn-- {
     &azure:active {
-        background-color: $azulSoft;
-        color: $azulStrong;
         border:none;
     }
     &rubi:active {
-        background-color: $bgcBtnComunHover;
-        color: $naranjaStrong;
         border:none;
     }
     &azure:hover {
         background-color: $bgcLightBlue;
+        border:2px solid map-get($colores-btn, 'producto-lineas');
+        font-size: 14px;
     }
     &rubi:hover {
         background-color: $cWhite;
+        border:2px solid map-get($colores-btn, 'contacto-lineas');
+        font-size: 14px;
     }
 }

@@ -78,13 +78,11 @@ body {
 }
 
 h1:first-child {
-  /* color: #2B475C; */
-  /* color: #43749d; */
-  color: #392C5C;
+  color: #2B475C;
   width: fit-content;
   padding: 20px;
   margin: 30px auto;
-  text-shadow: 2px 2px #2B475C;
+  text-shadow: 2px 2px #43749d;
   font-family: "Alfa Slab One", cursive;
 }
 
@@ -112,6 +110,7 @@ h1:first-child {
   padding: 20px 0px 10px 0px;
 }
 .footer__subtitle {
+  font-size: 1.5rem;
   text-align: center;
   margin: 30px 0px;
 }
@@ -125,6 +124,7 @@ h1:first-child {
   margin-top: 5px;
   width: 160px;
   height: 50px;
+  animation: sacudirse 10s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s infinite both;
 }
 @media (min-width: 992px) {
   .logo-container {
@@ -155,6 +155,23 @@ h1:first-child {
   }
 }
 
+@keyframes sacudirse {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  4%, 8%, 12%, 45% {
+    transform: translateX(-10px);
+  }
+  6%, 10%, 14% {
+    transform: translateX(10px);
+  }
+  17% {
+    transform: translateX(8px);
+  }
+  20% {
+    transform: translateX(-8px);
+  }
+}
 .prefooter-section {
   color: #273469;
 }
@@ -163,6 +180,7 @@ h1:first-child {
   width: 260px;
 }
 .prefooter__subtitle {
+  font-size: 1.5rem;
   text-align: center;
   margin: 30px 0px;
 }
@@ -440,6 +458,7 @@ h1:first-child {
 }
 .member__name {
   color: #273469;
+  font-weight: 700;
 }
 
 .navbar {

@@ -12,6 +12,7 @@
         @include b2100 {
             height: auto;
         }
+        animation: sacudirse 10s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0s infinite both;
     }
     &__img {
         width: 56%;
@@ -20,10 +21,33 @@
         }
     }
 };
-
 .logos-button-container {
     width: 100%;
     @include b992 {
         width: auto;
     }
 };
+
+@keyframes sacudirse {
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+    4%,
+    8%,
+    12%,
+    45% {
+        transform: translateX(-10px);
+    }
+    6%,
+    10%,
+    14% {
+        transform: translateX(10px);
+    }
+    17% {
+        transform: translateX(8px);
+    }
+    20% {
+        transform: translateX(-8px);
+    }
+}

@@ -179,6 +179,10 @@ h1:first-child {
   text-align: center;
   width: 260px;
 }
+.prefooter-section a {
+  text-decoration: none;
+  color: #273469;
+}
 .prefooter__subtitle {
   font-size: 1.5rem;
   text-align: center;

@@ -670,19 +670,5 @@
   "discount": 0.11,
   "lastVisited": false,
   "color": "Light Brown"
- },
- {
-  "id": 1662473874163,
-  "name": "Micro",
-  "brand": "SE",
-  "price": 46253,
-  "category": "microphone",
-  "shortDesc": "MICRÓFONO DINÁMICO V KICK INSTRUMENTO SE ELECTRONICS",
-  "longDesc": " El Micrófono dinámico de instrumento V7 X es, potente, natural y preciso. El V7 X le da vida a todos nuestros instrumentos. Un micrófono de instrumento dinámico supercardioide que consigue levantar esa cortina invisible entre el sonido real de nuestras fuentes y el equipo de sonido, conectando a los oyentes con nuestra interpretación a un nivel completamente nuevo. Como hermano del aclamado V7, más orientado a la voz, el V7 X es un micrófono de instrumento dinámico ideal para una amplia gama de aplicaciones instrumentales, tanto en el estudio como en el escenario.       ",
-  "image": "1662476217373.jpg",
-  "dispatch": true,
-  "discount": 0.03,
-  "lastVisited": true,
-  "color": "Red"
  }
 ]

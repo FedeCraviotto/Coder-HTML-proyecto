@@ -432,6 +432,9 @@ h1:first-child {
   height: 100%;
 }
 
+.fa-magnifying-glass {
+  cursor: pointer;
+}
 @media (min-width: 768px) {
   .fa-magnifying-glass {
     font-size: 24px;
@@ -527,6 +530,10 @@ h1:first-child {
 
 .card-text {
   text-align: center;
+}
+.card-text--price {
+  font-size: 20px;
+  color: green;
 }
 .card:hover {
   transform: scale(1.08);

@@ -12,6 +12,10 @@
     &-text {
         text-align:center;
     }
+    &-text--price {
+        font-size: 20px;
+        color: green;
+    }
     &:hover {
         transform: scale(1.08);
         box-shadow: 0 0 20px 0px $cardShadow;
@@ -34,28 +38,3 @@
         transition: transform .3s ease;
 }
 };
-// .card-text {
-//     text-align:center;
-// }
-
-// .card:hover {
-//     transform: scale(1.08);
-//     box-shadow: 0 0 20px 0px $cardShadow;
-//     cursor: pointer;
-// }
-// .card::after {
-//     transform: scaleX(0);
-//     transform-origin: bottom right;
-//     content: "";
-//     display: block;
-//     position: absolute;
-//     top: 0; right: 0; bottom: 0; left: 0;
-//     inset: 0 0 0 0;
-//     background: $cardAfter;
-//     z-index: 2;
-//     transition: transform .3s ease;
-// }
-// .card:hover::after {
-//     transform: scaleX(1);
-//     transform-origin: bottom left;
-// };

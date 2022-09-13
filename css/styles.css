@@ -451,6 +451,11 @@ h1:first-child {
   padding: 0px;
 }
 
+#minCost, #maxCost {
+  color: #0d910b;
+  font-weight: bold;
+}
+
 .member__img {
   max-width: 250px;
   min-width: 200px;
@@ -526,6 +531,7 @@ h1:first-child {
   overflow: hidden;
   transition: all 0.5s;
   position: relative;
+  height: 90%;
 }
 
 .card-text {

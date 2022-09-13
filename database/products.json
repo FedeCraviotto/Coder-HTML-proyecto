@@ -211,7 +211,7 @@
  },
  {
   "id": 16,
-  "name": " CL125 BRESSANT",
+  "name": "CL125 BRESSANT",
   "brand": "Bressant",
   "price": 179383.8,
   "category": "clarinet",
@@ -506,9 +506,9 @@
  {
   "id": 37,
   "name": "P3S AKG",
-  "brand": false,
+  "brand": "AKG",
   "price": 138081.68,
-  "category": false,
+  "category": "microphone",
   "shortDesc": "MICRÓFONO DINÁMICO P3S AKG",
   "longDesc": "El micrófono dinámico P3S es especialmente adecuado para coros, instrumentos de viento y muchas otras aplicaciones en vivo. Inusualmente robusto con carcasa metálica y cabeza con rejilla, el micrófono P3S posee un interruptor de encendido/apagado sin crujidos. No pierdas esta oportunidad y hazte con el tuyo.",
   "image": "37-P3S.jpg",

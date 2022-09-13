@@ -1,3 +1,5 @@
-Proyecto en prooceso.
-Fecha de entrega aprox 05/09
-Flexbox - GRIDS - Bootstrap - Sass
+Entrega Final - CoderHouse Desarrollo Web
+Curso bimestral
+HTML y CSS
+Bootstrap, SASS, y subida al servidor.
+Javascript agregado por cuenta propia.

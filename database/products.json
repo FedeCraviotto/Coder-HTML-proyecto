@@ -1,7 +1,7 @@
 [
  {
   "id": 1,
-  "name": "Deluxe Asat FULLERTON",
+  "name": "Deluxe Asat",
   "brand": "GyL",
   "price": 104533.2,
   "category": "guitar",
@@ -15,7 +15,7 @@
  },
  {
   "id": 2,
-  "name": "GUITARRA ELÉCTRICA TRIBUTE LEGACY",
+  "name": "TRIBUTE LEGACY",
   "brand": "GyL",
   "price": 39756.12,
   "category": "guitar",
@@ -29,7 +29,7 @@
  },
  {
   "id": 3,
-  "name": "GUITARRA ELÉCTRICA CLASSIC BLUESBOY",
+  "name": "CLASSIC BLUESBOY",
   "brand": "GyL",
   "price": 165871.62,
   "category": "guitar",
@@ -43,7 +43,7 @@
  },
  {
   "id": 4,
-  "name": "BAJO ELÉCTRICO TOBY STANDARD IV",
+  "name": "TOBY STANDARD IV",
   "brand": "Epiphone",
   "price": 204939.21,
   "category": "bass",
@@ -57,7 +57,7 @@
  },
  {
   "id": 5,
-  "name": "BAJO ELÉCTRICO DELUXE IV EBONY",
+  "name": "DELUXE IV EBONY",
   "brand": "Epiphone",
   "price": 22575.62,
   "category": "bass",
@@ -71,7 +71,7 @@
  },
  {
   "id": 6,
-  "name": "BAJO ELÉCTRICO EB-3 CHERRY",
+  "name": "EB-3 CHERRY",
   "brand": "Epiphone",
   "price": 207510.72,
   "category": "bass",
@@ -85,7 +85,7 @@
  },
  {
   "id": 7,
-  "name": "TECLADO SA77",
+  "name": "SA77",
   "brand": "CASIO",
   "price": 29829.34,
   "category": "keyboard",
@@ -99,7 +99,7 @@
  },
  {
   "id": 8,
-  "name": "TECLADO CT-S200WE CASIOTONE",
+  "name": "CT-S200WE",
   "brand": "CASIO",
   "price": 90382.31,
   "category": "keyboard",
@@ -113,7 +113,7 @@
  },
  {
   "id": 9,
-  "name": "TECLADO CTS1 CASIOTONE",
+  "name": "CTS1",
   "brand": "CASIO",
   "price": 172955.49,
   "category": "keyboard",
@@ -127,7 +127,7 @@
  },
  {
   "id": 10,
-  "name": "GUITARRA FA 125CE DREADNOUGHT",
+  "name": "125CE DREADNOUGHT",
   "brand": "Fender",
   "price": 46059.61,
   "category": "guitar",
@@ -141,7 +141,7 @@
  },
  {
   "id": 11,
-  "name": "BATERÍA FT900BBK 5PCS",
+  "name": "FT900BBK 5PCS",
   "brand": "Memphis",
   "price": 181625.9,
   "category": "drums",
@@ -155,7 +155,7 @@
  },
  {
   "id": 12,
-  "name": "BATERÍA ACÚSTICA CL50RS COFFEE TAMA",
+  "name": "CL50RS TAMA",
   "brand": "TAMA",
   "price": 216777.59,
   "category": "drums",
@@ -169,7 +169,7 @@
  },
  {
   "id": 13,
-  "name": "FLAUTA TRAVERSA FL306SE",
+  "name": "FL306SE",
   "brand": "Bressant",
   "price": 14645.7,
   "category": "flute",
@@ -183,7 +183,7 @@
  },
  {
   "id": 14,
-  "name": "FLAUTA FL250",
+  "name": "FL250",
   "brand": "J Michael",
   "price": 218492.57,
   "category": "flute",
@@ -211,7 +211,7 @@
  },
  {
   "id": 16,
-  "name": "CL125 BRESSANT",
+  "name": "CL125",
   "brand": "Bressant",
   "price": 179383.8,
   "category": "clarinet",
@@ -239,7 +239,7 @@
  },
  {
   "id": 18,
-  "name": "ALTO AS220S",
+  "name": "AS220S",
   "brand": "Bressant",
   "price": 194075.73,
   "category": "saxophone",
@@ -253,7 +253,7 @@
  },
  {
   "id": 19,
-  "name": "TENOR TS820Z",
+  "name": "TS820Z",
   "brand": "Bressant",
   "price": 205745.73,
   "category": "saxophone",
@@ -281,7 +281,7 @@
  },
  {
   "id": 21,
-  "name": "MIDNIGHT BLUES C",
+  "name": "MIDNIGHT BLUES",
   "brand": "Fender",
   "price": 56007.5,
   "category": "harmonica",
@@ -295,7 +295,7 @@
  },
  {
   "id": 22,
-  "name": "TENOR TT811L AMADEUS",
+  "name": "TT811L",
   "brand": "AMADEUS",
   "price": 193729.79,
   "category": "trombone",
@@ -309,7 +309,7 @@
  },
  {
   "id": 23,
-  "name": "Oqan OTR-450",
+  "name": "OTR-450",
   "brand": "Oqan",
   "price": 33770.71,
   "category": "trumpet",
@@ -323,7 +323,7 @@
  },
  {
   "id": 24,
-  "name": "OB500N ABS ÉBANO",
+  "name": "OB500N ABS",
   "brand": "Bressant",
   "price": 120770.84,
   "category": "oboe",
@@ -337,7 +337,7 @@
  },
  {
   "id": 25,
-  "name": "TP210 JUPITER",
+  "name": "TP210",
   "brand": "Jupiter",
   "price": 53377.39,
   "category": "french horn",
@@ -351,7 +351,7 @@
  },
  {
   "id": 26,
-  "name": "YSV104 YAMAHA",
+  "name": "YSV104",
   "brand": "YAMAHA",
   "price": 202881.02,
   "category": "violin",
@@ -365,7 +365,7 @@
  },
  {
   "id": 27,
-  "name": "SVD2044 HUBERT",
+  "name": "SVD2044",
   "brand": "Hubert",
   "price": 65849.53,
   "category": "violin",
@@ -379,12 +379,12 @@
  },
  {
   "id": 28,
-  "name": "Carlo Giordano VL1 Viola 15 pulgadas",
+  "name": "VL1 15\"",
   "brand": "Carlo Giordano",
   "price": 37956.29,
   "category": "viola",
-  "shortDesc": "Carlo Giordano VL1 Viola 15 pulgadas",
-  "longDesc": "Viola de estudio de 15 pulgadas, totalmente maciza con tapa de abeto, contorno y fondo de arce. Completa, con arco y estuche, con cabado envejecido satinado. Nota: Nuestros violines y biolas se envían con el puente desmontado para evitar daños durante el transporte.",
+  "shortDesc": "Carlo Giordano VL1 Viola 15\"",
+  "longDesc": "Viola de estudio de 15\", totalmente maciza con tapa de abeto, contorno y fondo de arce. Completa, con arco y estuche, con cabado envejecido satinado. Nota: Nuestros violines y biolas se envían con el puente desmontado para evitar daños durante el transporte.",
   "image": "28-VL1.jpg",
   "dispatch": true,
   "discount": 0.3,
@@ -393,7 +393,7 @@
  },
  {
   "id": 29,
-  "name": "VIOLONCELLO SUITE 4/4 FIDELIO ",
+  "name": "SUITE 4/4 FIDELIO ",
   "brand": "FIDELO",
   "price": 82014.51,
   "category": "violoncello",
@@ -407,7 +407,7 @@
  },
  {
   "id": 30,
-  "name": "CONTRABAJO ALFRED S60 1/2 HOFNER",
+  "name": "ALFRED S60 1/2",
   "brand": "HOFNER",
   "price": 58054.99,
   "category": "double bass",
@@ -421,7 +421,7 @@
  },
  {
   "id": 31,
-  "name": "MP840 QUIK LOK",
+  "name": "MP840",
   "brand": "QUIK LOK",
   "price": 13298.14,
   "category": "accesory",
@@ -435,7 +435,7 @@
  },
  {
   "id": 32,
-  "name": "FUNDA ATRIL SMSB-6500 CON ASA ON STAGE",
+  "name": "SMSB-6500 CON ASA",
   "brand": "On Stage",
   "price": 33095.3,
   "category": "accesory",
@@ -449,7 +449,7 @@
  },
  {
   "id": 33,
-  "name": "Rockstand RS10010B",
+  "name": "RS10010B",
   "brand": "Rockstand",
   "price": 192301.86,
   "category": "accesory",
@@ -463,7 +463,7 @@
  },
  {
   "id": 34,
-  "name": "FFL05BK FLANGER ",
+  "name": "FFL05BK",
   "brand": "Flanger",
   "price": 147589.8,
   "category": "accesory",
@@ -477,7 +477,7 @@
  },
  {
   "id": 35,
-  "name": "YAMAHA AG03",
+  "name": "AG03",
   "brand": "Yamaha",
   "price": 81014.86,
   "category": "audio production",
@@ -491,7 +491,7 @@
  },
  {
   "id": 36,
-  "name": "DM300 LEEM",
+  "name": "DM300",
   "brand": "Leem",
   "price": 116311.45,
   "category": "microphone",
@@ -505,7 +505,7 @@
  },
  {
   "id": 37,
-  "name": "P3S AKG",
+  "name": "P3S",
   "brand": "AKG",
   "price": 138081.68,
   "category": "microphone",
@@ -519,7 +519,7 @@
  },
  {
   "id": 38,
-  "name": "CM400 VONYX",
+  "name": "CM400",
   "brand": "VONYX",
   "price": 91609.64,
   "category": "microphone",
@@ -533,7 +533,7 @@
  },
  {
   "id": 39,
-  "name": "KM1UGS KURZWEIL",
+  "name": "KM1UGS",
   "brand": "KURZWEIL",
   "price": 186836.14,
   "category": "microphone",
@@ -547,7 +547,7 @@
  },
  {
   "id": 40,
-  "name": "MICRÓFONO PROFESIONAL UBER MULTIPATRON USB M-AUDIO",
+  "name": "MULTIPATRON USB",
   "brand": "UBER",
   "price": 23058.07,
   "category": "microphone",
@@ -561,7 +561,7 @@
  },
  {
   "id": 41,
-  "name": "Pathfinder 10W 1X6,5",
+  "name": "Pathfinder 10W",
   "brand": "VOX",
   "price": 228747.89,
   "category": "amplifier",
@@ -575,7 +575,7 @@
  },
  {
   "id": 42,
-  "name": "KATANA-MINI BOSS",
+  "name": "KATANA-MINI",
   "brand": "BOSS",
   "price": 228390.07,
   "category": "amplifier",
@@ -589,7 +589,7 @@
  },
  {
   "id": 43,
-  "name": "AMPLIFICADOR DE GUITARRA JVM210C MARSHALL",
+  "name": "JVM210C MARSHALL",
   "brand": "Marshall",
   "price": 166847.33,
   "category": "amplifier",
@@ -603,7 +603,7 @@
  },
  {
   "id": 44,
-  "name": "CR60C ORANGE",
+  "name": "CR60C",
   "brand": "Orange",
   "price": 51439.02,
   "category": "amplifier",
@@ -617,7 +617,7 @@
  },
  {
   "id": 45,
-  "name": "VT20X VOX",
+  "name": "VT20X",
   "brand": "VOX",
   "price": 141312.27,
   "category": "amplifier",
@@ -631,7 +631,7 @@
  },
  {
   "id": 46,
-  "name": "MUSTANG BULLET IMPERIAL",
+  "name": "BULLET IMPERIAL",
   "brand": "Squier",
   "price": 203312.27,
   "category": "guitar",
@@ -645,7 +645,7 @@
  },
  {
   "id": 47,
-  "name": "BULLET SSS SPARKLE SQUIER",
+  "name": "SSS SPARKLE",
   "brand": "Squier",
   "price": 178312.27,
   "category": "guitar",
@@ -659,7 +659,7 @@
  },
  {
   "id": 48,
-  "name": "SX ED2 BSB",
+  "name": "ED2 BSB",
   "brand": "SX",
   "price": 1518512.27,
   "category": "guitar",

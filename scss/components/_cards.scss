@@ -10,6 +10,9 @@
 }
 
 .card {
+    &-img-top {
+        padding:8px;
+    }
     &-text {
         text-align:center;
     }
@@ -39,3 +42,31 @@
         transition: transform .3s ease;
 }
 };
+
+.special-card {
+    &__inner {
+        transition: transform 1s;
+        transform-style: preserve-3d;
+        padding-bottom: 20px;
+    
+    }
+    &__inner.is-flipped {
+        transform: rotateY(180deg);
+    }
+    &__face--back {
+        display: none;
+        transform: rotateY(180deg);
+    }
+    &__contentBody {
+        padding: 10px;
+    }
+    &__contentBody p {
+        margin-bottom: 5px;
+    }
+    &__header {
+        padding: 10px;
+    }
+    &__text--highlighted {
+        color: rgb(4, 81, 4);
+    }
+}

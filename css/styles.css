@@ -534,6 +534,9 @@ h1:first-child {
   height: 90%;
 }
 
+.card-img-top {
+  padding: 8px;
+}
 .card-text {
   text-align: center;
 }
@@ -564,6 +567,31 @@ h1:first-child {
   background: rgba(13, 14, 13, 0.055);
   z-index: 2;
   transition: transform 0.3s ease;
+}
+
+.special-card__inner {
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  padding-bottom: 20px;
+}
+.special-card__inner.is-flipped {
+  transform: rotateY(180deg);
+}
+.special-card__face--back {
+  display: none;
+  transform: rotateY(180deg);
+}
+.special-card__contentBody {
+  padding: 10px;
+}
+.special-card__contentBody p {
+  margin-bottom: 5px;
+}
+.special-card__header {
+  padding: 10px;
+}
+.special-card__text--highlighted {
+  color: rgb(4, 81, 4);
 }
 
 .btn--rubi, .btn--azure {

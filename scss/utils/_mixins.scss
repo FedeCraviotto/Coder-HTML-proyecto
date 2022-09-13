@@ -21,6 +21,11 @@
         @content
     }
 };
+@mixin b1440 {
+    @media (min-width:1200px) {
+        @content
+    }
+};
 @mixin b2100 {
     @media (min-width:2100px) {
         @content

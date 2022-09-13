@@ -20,6 +20,7 @@
 };
 
 .fa-magnifying-glass {
+    cursor: pointer;
     @include b768 {
         font-size: 24px;
     }
@@ -33,4 +34,9 @@
 
 .form-check {
     padding:0px
+}
+
+#minCost, #maxCost {
+    color: #0d910b;
+    font-weight: bold;
 }

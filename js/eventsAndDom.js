@@ -163,7 +163,6 @@ let minCostSpan = document.querySelector("#minCost");
           resultado.price <= inputRangoMaximo.value
         );
       });
-      console.log(resultsFilteredByPrice);
       document.querySelector(".productos__listado-completo").innerHTML = ``;
       crearProductos(resultsFilteredByPrice);
     } else if (searchResult === undefined) {
@@ -173,7 +172,6 @@ let minCostSpan = document.querySelector("#minCost");
           resultado.price <= inputRangoMaximo.value
         );
       });
-      console.log(productsFilteredByPrice);
       document.querySelector(".productos__listado-completo").innerHTML = ``;
       crearProductos(productsFilteredByPrice);
     }
@@ -225,17 +223,15 @@ if (new URL(location.href).searchParams.get("redirected") == "true") {
     searchResult = searchResultFiltered;
     document.querySelector(".productos__listado-completo").innerHTML = ``;
     crearProductos(searchResult);
-  }, 200);
+  }, 1000);
 }
 
-///En construcción
 function applyCardEvents() {
   let allCards = document.querySelectorAll(".special-card__inner");
   allCards.forEach((card) => {
     card.addEventListener("click", () => {
       if (!card.classList.contains("is-flipped")) {
         card.classList.toggle("is-flipped");
-        console.log(card.querySelector(".special-card__face--back"));
         card.querySelector(".special-card__innerBody").style.display = "none";
         card.querySelector(".special-card__face--back").style.display = "block";
       } else if (card.classList.contains("is-flipped")) {

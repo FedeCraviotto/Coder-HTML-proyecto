@@ -106,7 +106,7 @@ productQuery.addEventListener("keydown", (e) => {
     let productos = listadoDeProductos;
     let query = productQuery.value.toLowerCase();
     searchResult = productos.filter((producto) => {
-      return producto.name.toLowerCase().includes(query);
+      return producto.shortDesc.toLowerCase().includes(query);
     });
     let searchResultFiltered = [];
     if (categoryFilter.length > 0) {

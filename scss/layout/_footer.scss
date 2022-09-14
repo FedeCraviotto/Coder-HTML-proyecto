@@ -13,6 +13,13 @@
         text-align: center;
         margin: 30px 0px;
     }
+    &links {
+        text-decoration: none;
+        color: #fff;
+    }
+    &links:hover {
+        color: #fff;
+    }
 }
 .footer {
     background-color:$cDarkBlue;
